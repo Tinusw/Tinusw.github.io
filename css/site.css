@@ -1,0 +1,113 @@
+/**/
+/* Main Styling */
+/**/
+
+.container {
+	height: 100vh;
+	width: 100vw;
+}
+
+
+
+/**/
+/*Individual Pages*/
+/**/
+
+/**/
+/*Page 1*/
+/**/
+
+/*Background Change*/
+
+@-webkit-keyframes greyBlackFade {  
+  0% { background-color: rgba(0, 0, 0, 0.9);  }
+  50% { background-color: rgba(0, 0, 0, 0.54); }
+  51% { background-color: rgba(0, 0, 0, 0.48); }
+  100% { background-color: rgba(0, 0, 0, 0.32); }
+}
+
+#page1 {
+    background-color: rgba(0, 0, 0, 0.32);
+    -webkit-animation-name: greyBlackFade;  
+    -webkit-animation-iteration-count: 1;  
+    -webkit-animation-duration: 2s; 
+}
+
+#name {
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#jobTitle {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+/*#jobTitle2 {
+  color: rgba(0, 0, 0, 0.5);
+}*/
+
+
+#page2 {
+	background-color: lightgrey;
+}
+
+#page3 {
+	background-color: brown;
+}
+
+#page4 {
+	background-color: lightyellow;
+}
+
+#page5 {
+	background-color: lightpink;
+}
+
+/**/
+/*typography*/
+/**/
+
+h1 {
+  font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 4em;
+  /*makes fonts look crispy*/
+  -webkit-font-smoothing: antialiased;
+  color: rgba(84, 110, 122, 1.0);
+}
+
+h2 {
+  font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  /*makes fonts look crispy*/
+  -webkit-font-smoothing: antialiased;
+  color: rgba(84, 110, 122, 1.0);
+}
+
+h3 {
+  font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  /*makes fonts look crispy*/
+  -webkit-font-smoothing: antialiased;
+  color: rgba(84, 110, 122, 1.0);
+}
+
+ul, li, p, label, td {
+  font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  /*makes fonts look crispy*/
+  -webkit-font-smoothing: antialiased;
+  color: rgba(158, 158, 158, 1.0);
+
+}
+
+footer {
+  font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  /*makes fonts look crispy*/
+  -webkit-font-smoothing: antialiased;
+}
