@@ -11,10 +11,6 @@
 /*Page 1*/
 /**/
 
-
-
-
-
 .navbar {
   position: fixed;
   padding: 0.2% 0 0 0;
@@ -59,7 +55,7 @@
     210deg,
     rgba(105, 105, 105, 0.66), 
     rgba(0, 0, 0, 0.40)
-    ), url("../images/Backgrounds/bldng1.jpeg") repeat center center fixed;
+    ), url("../images/Backgrounds/bldng1.jpg") repeat center center fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,7 +89,7 @@
     210deg,
     rgba(105, 105, 105, 0.66), 
     rgba(0, 0, 0, 0.40)
-    ), url("../images/Backgrounds/bldng2.jpeg") repeat center center fixed;
+    ), url("../images/Backgrounds/bldng2.jpg") repeat center center fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -160,7 +156,7 @@
     210deg,
     rgba(105, 105, 105, 0.66), 
     rgba(0, 0, 255, 0.30)
-    ), url("../images/Backgrounds/lndscp1.jpeg") repeat center center fixed;
+    ), url("../images/Backgrounds/lndscp1.jpg") repeat center center fixed;
   background-size: 100% 100%;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -212,7 +208,7 @@
     210deg,
     rgba(105, 105, 105, 0.66), 
     rgba(140, 130, 130, 0.8)
-    ), url("../images/Backgrounds/proKitty.jpeg") repeat center center fixed;
+    ), url("../images/Backgrounds/proKitty.jpg") repeat center center fixed;
   background-size: 100% 100%;
   -moz-background-size: cover;
   -o-background-size: cover;
