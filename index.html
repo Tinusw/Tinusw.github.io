@@ -29,8 +29,8 @@
         <li><a href="#page1"> Home</a></li>
         <li><a href="#page2"> My Work </a></li>
         <li><a href="#page3"> My Skills</a></li>
-        <li><a href="#page4"> Experience</a></li>
-        <li><a href="#page5"> Contact Me</a></li>
+        <li><a href="#page4"> Contact Me</a></li>
+        <li><a href="#page5"> More</a></li>
 
 
       </ul>
@@ -191,7 +191,7 @@
         <h1> Skills and Expertise </h1>
       </div>
 
-      <div class="row">
+      <div class="row" id="skillRow">
         <div class="col-md-4" id="skill1">
           <i class="icon icnon-html5">
             <p> Insert Icon </p>
@@ -255,7 +255,7 @@
 
     <div class="container" id="page5">
       <div class="expHeader">
-        <h1> More Info? </h1>
+        <h1> Want More? </h1>
       </div>
     </div>
 
@@ -267,20 +267,41 @@
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+    <!-- ScrollReveal JS -->
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.1/scrollreveal.min.js"></script>
+
     <!-- Can place script tags with JavaScript files here -->
+
+    <!-- ScrollReveal Code -->
+    <script type="text/javascript">
+      window.sr = ScrollReveal({ reset: true, mobile: false });
+      sr.reveal('#work', 500);
+      sr.reveal('#page3');
+    </script>
 
     <!-- Smooth Scrolling -->
     <script type="text/javascript">
       var $root = $('html, body');
-        $('.navbar-nav a').click(function() {
+        $('.navbar a').click(function() {
             var href = $.attr(this, 'href');
             $root.animate({
                 scrollTop: $(href).offset().top
             }, 500, function () {
-                window.location.hash = href;
+               window.location.hash = href;
             });
             return false;
         });
+    </script>
+    
+    <!-- Suppossed to be smooth scroll for nav -->
+    <script type="text/javascript">
+      $('nav a').click(function () {
+        var $href = $(this).attr('href');
+        $('body').stop().animate({
+          scrollTop: $($href).offset().top
+        }, 1000);
+        return false;
+      });
     </script>
 
   </body>
