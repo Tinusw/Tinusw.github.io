@@ -24,9 +24,20 @@
 
 .navbar {
   position: fixed;
-  margin-bottom: 10px;
+  padding: 0.3% 0 0 0;
   background-color: black;
   width: 100%;
+  min-height: 30px;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  margin-right: 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 #page1 {
@@ -71,7 +82,7 @@
 }
 
 #page3 {
-  height: 100vh;
+  height: 50vh;
 	background-color: rgba(112, 128, 128, 0.7);
 }
 
@@ -124,6 +135,12 @@ h3 {
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
+}
+
+a {
+  font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
 }
 
 ul, li, p, label, td {
