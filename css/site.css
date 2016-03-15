@@ -29,7 +29,7 @@
 }
 
 .navbar ul li a {
-  margin-right: 4%;
+  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -41,17 +41,15 @@
     210deg,
     rgba(105, 105, 105, 0.66), 
     rgba(0, 0, 0, 0.40)
-    ), url("../images/bldng1.jpeg") repeat center center fixed;
+    ), url("../images/Backgrounds/bldng1.jpeg") repeat center center fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-    /*background-color: rgba(0, 0, 0, 0.40);*/
-    
 }
 
 .introDiv {
   width: 550px;
-  padding: 0.2% 0 0.5% 0.8%;
+  padding-left: 0.5%;
   background-color: rgba(0, 0, 0, 0.55);
   border-radius: 11px;
   margin-top: 90px;
@@ -72,15 +70,22 @@
 }
 
 #page2 {
-	background-color: rgba(0, 0, 0, 0.50);
+	background: linear-gradient(
+    210deg,
+    rgba(105, 105, 105, 0.66), 
+    rgba(0, 0, 0, 0.40)
+    ), url("../images/Backgrounds/bldng2.jpeg") repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .workHeader {
   width: 550px;
-  padding: 0.2% 0 0.5% 0.8%;
+  padding-left: 0.5%;
   background-color: rgba(0, 0, 0, 0.55);
   border-radius: 11px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 30px;
 }
 
@@ -127,20 +132,25 @@
   width: 80%;
 }
 
-/*.carousel-inner {
-  position: relative;
-  width: 100%
-}*/
-
-
-
-#skillRow {
- height: 100%;
-}
-
 #page3 {
   height: 50vh;
-	background-color: rgba(112, 128, 128, 0.7);
+	background: linear-gradient(
+    210deg,
+    rgba(105, 105, 105, 0.66), 
+    rgba(0, 0, 255, 0.30)
+    ), url("../images/Backgrounds/lndscp1.jpeg") repeat center center fixed;
+  background-size: 100% 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.skillsHeader {
+  width: 550px;
+  padding-left: 0.5%;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 11px;
+  margin-top: 50px;
+  margin-left: 15px;
 }
 
 #skill1 {
@@ -156,12 +166,48 @@
 }
 
 #page4 {
-  background-color: rgba(118, 128, 128, 0.8);
+  height: 50vh;
+  background: linear-gradient(
+    210deg,
+    rgba(105, 105, 105, 0.66), 
+    rgba(0, 0, 255, 0.30)
+    ), url("../images/Backgrounds/wndw1.jpg") repeat center center fixed;
+  background-size: 100% 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.contactHeader {
+  width: 550px;
+  padding-left: 0.5%;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 11px;
+  margin-top: 50px;
+  margin-left: 15px;
 }
 
 #page5 {
+  height: 50vh;
+  background: linear-gradient(
+    210deg,
+    rgba(105, 105, 105, 0.66), 
+    rgba(140, 130, 130, 0.8)
+    ), url("../images/Backgrounds/proKitty.jpeg") repeat center center fixed;
+  background-size: 100% 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-color: rgba(140, 130, 130, 0.8);
 }
+
+.expHeader {
+  width: 550px;
+  padding-left: 0.5%;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 11px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
 
 /**/
 /*typography*/
@@ -174,6 +220,8 @@ h1 {
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -183,6 +231,8 @@ h2 {
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
+  /*margin-top: 10px;
+  margin-bottom: 10px;*/
 }
 
 h3 {
@@ -192,12 +242,26 @@ h3 {
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+  /*makes fonts look crispy*/
+  -webkit-font-smoothing: antialiased;
+  color: rgba(84, 110, 122, 1.0);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 a {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 200;
   font-size: 1.5em;
+
 }
 
 ul, li, p, label, td {

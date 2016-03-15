@@ -26,8 +26,13 @@
   <body>
     <div class="navbar">
       <ul>
-        <li><a> My Work </a></li>
-        <li><a> My Skills</a></li>
+        <li><a href="#page1"> Home</a></li>
+        <li><a href="#page2"> My Work </a></li>
+        <li><a href="#page3"> My Skills</a></li>
+        <li><a href="#page4"> Experience</a></li>
+        <li><a href="#page5"> Contact Me</a></li>
+
+
       </ul>
     </div>
 
@@ -135,7 +140,7 @@
                 <span class="sr-only">Next</span>
               </a>
             </div> <!--/carousel -->
-            <h2> Angular Todo Application</h2>
+            <h2> Angular Todo App</h2>
             <h4> More Info? </h4>
           </div> <!--/container-fluid -->
         </div><!-- /col-md-4 -->
@@ -161,8 +166,7 @@
                 <div class="item">
                   <img src="images/jQueryCalc/jQueryCalcEmpty.png" alt="carousel2">
                 </div>
-
-                
+              </div>
 
               <!-- Controls -->
               <a class="left carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -178,13 +182,14 @@
             <h4> More Info? </h4>
           </div> <!--/container-fluid -->
         </div><!-- /col-md-4 -->
-      </div>
         
       </div><!-- /Row -->
     </div> <!-- /container -->
 
     <div class="container" id="page3">
-      <h1> Skills and Expertise </h1>
+      <div class="skillsHeader">
+        <h1> Skills and Expertise </h1>
+      </div>
 
       <div class="row">
         <div class="col-md-4" id="skill1">
@@ -193,7 +198,7 @@
           </i>
           <div class="text">
             <h3> 
-              <strong> Frontend Development </strong> 
+               Frontend Development 
             </h3>
             <h4>
               Whether you need a new website, or updates to an existing application. if it involves the web, I can certainly help.
@@ -212,13 +217,13 @@
           </i>
           <div class="text">
             <h3> 
-              <strong> Responsive Web Development </strong> 
+              Responsive Design
             </h3>
             <h4>
-              Smartphones, tablets and even your television has internet access. Your site should be as adaptable as your customers.
+              Smartphones, tablets, even your television has internet access. Your site should be as adaptable as your customers.
             </h4>
             <p>
-              So how can we keep your brand consistent, while accommodating for various existing and emerging devices? I build using a responsive, mobile first grid systems, built on frameworks such as Bootstrap to ensure smarter, more future-proof sites. 
+              How do you keep a brand consistent, while accommodating for various existing and emerging devices? I build using a responsive, mobile first grid systems, built on frameworks such as Bootstrap to ensure smarter, more future-proof sites. 
             </p>
           </div>
         </div>
@@ -229,13 +234,13 @@
           </i>
           <div class="text">
             <h3> 
-              <strong> Project Management </strong> 
+              Project Management 
             </h3>
             <h4>
-              We know code is what brings an idea from sketch on a notepad, to a living website. But it isn't the only thing.
+              Code is what brings an idea from sketch on a notepad, to a living website. But it isn't the only thing.
             </h4>
             <p>
-              Budgeting, deadlines, co-ordination, organisation. Words many of us aren't fond of. Nevertheless, these factors play a critical role in successful projects. I've managed projects across the world. From web-based startup to multi-national bank. I know how to get to the finish line.
+              Budgeting, deadlines, co-ordination, organisation. Words many of us aren't fond of. Nevertheless, they play a critical role in successful projects. From big to small, from web-based startup to multi-national bank. I know how to get to the finish line.
             </p>
           </div>
         </div>
@@ -243,11 +248,15 @@
     </div> <!-- /container -->
 
     <div class="container" id="page4">
-      <h1> Page 4 </h1>
+      <div class="contactHeader">
+        <h1> Contact Me </h1>
+      </div>
     </div> <!-- /container -->
 
     <div class="container" id="page5">
-      <h1> Page 5 </h1>
+      <div class="expHeader">
+        <h1> More Info? </h1>
+      </div>
     </div>
 
 
@@ -259,6 +268,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!-- Can place script tags with JavaScript files here -->
+
+    <!-- Smooth Scrolling -->
+    <script type="text/javascript">
+      var $root = $('html, body');
+        $('.navbar-nav a').click(function() {
+            var href = $.attr(this, 'href');
+            $root.animate({
+                scrollTop: $(href).offset().top
+            }, 500, function () {
+                window.location.hash = href;
+            });
+            return false;
+        });
+    </script>
 
   </body>
 </html>
