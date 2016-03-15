@@ -3,11 +3,9 @@
 /**/
 
 .container {
-	height: 100vh;
-	width: 100vw;
+	height: 50vh;
+  width: 100%;
 }
-
-
 
 /**/
 /*Individual Pages*/
@@ -19,48 +17,82 @@
 
 /*Background Change*/
 
-@-webkit-keyframes greyBlackFade {  
+@-webkit-keyframes blackFade {  
   0% { background-color: rgba(0, 0, 0, 0.9);  }
-  50% { background-color: rgba(0, 0, 0, 0.54); }
-  51% { background-color: rgba(0, 0, 0, 0.48); }
-  100% { background-color: rgba(0, 0, 0, 0.32); }
+  100% { background-color: rgba(0, 0, 0, 0.40); }
+}
+
+.navbar {
+  position: fixed;
+  margin-bottom: 10px;
+  background-color: black;
+  width: 100%;
 }
 
 #page1 {
-    background-color: rgba(0, 0, 0, 0.32);
-    -webkit-animation-name: greyBlackFade;  
+    background-color: rgba(0, 0, 0, 0.40);
+    -webkit-animation-name: blackFade;  
     -webkit-animation-iteration-count: 1;  
-    -webkit-animation-duration: 2s; 
+    -webkit-animation-duration: 3s; 
+}
+
+.introDiv {
+  width: 55%;
+  padding: 0.2% 0 0.5% 0.8%;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 11px;
+  margin-top: 10vh;
+}
+
+.quote {
+  width: 35%;
+  padding: 0.2% 0 0.5% 0.8%;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 11px;
+  margin-top: 25%;
+  margin-left: 60%;
+}
+
+.items {
+  display: block;
 }
 
 #name {
-  font-size: 5em;
-  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
 }
-
-#jobTitle {
-  color: rgba(0, 0, 0, 0.1);
-}
-
-/*#jobTitle2 {
-  color: rgba(0, 0, 0, 0.5);
-}*/
-
 
 #page2 {
-	background-color: lightgrey;
+	background-color: rgba(0, 0, 0, 0.50);
+}
+
+#skillRow {
+ display: flex;
+ height: 100%;
 }
 
 #page3 {
-	background-color: brown;
+  height: 100vh;
+	background-color: rgba(112, 128, 128, 0.7);
+}
+
+#skill1 {
+  background-color: rgba(140, 130, 130, 0.8);
+}
+
+#skill2 {
+  background-color: rgba(0, 0, 0, 0.40);
+}
+
+#skill3 {
+  background-color: rgba(100, 0, 0, 0.6);
 }
 
 #page4 {
-	background-color: lightyellow;
+  background-color: rgba(118, 128, 128, 0.8);
 }
 
 #page5 {
-	background-color: lightpink;
+  background-color: rgba(140, 130, 130, 0.8);
 }
 
 /**/
@@ -70,7 +102,7 @@
 h1 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 500;
-  font-size: 4em;
+  font-size: 380%; /* equates to 4em */
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
@@ -79,7 +111,7 @@ h1 {
 h2 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 240%;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
@@ -100,7 +132,7 @@ ul, li, p, label, td {
   font-size: 1em;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
-  color: rgba(158, 158, 158, 1.0);
+  color: rgba(211, 211, 211, 1.0);
 
 }
 
