@@ -8,19 +8,12 @@
 }
 
 /**/
-/*Individual Pages*/
-/**/
-
-/**/
 /*Page 1*/
 /**/
 
-/*Background Change*/
 
-@-webkit-keyframes blackFade {  
-  0% { background-color: rgba(0, 0, 0, 0.9);  }
-  100% { background-color: rgba(0, 0, 0, 0.40); }
-}
+
+
 
 .navbar {
   position: fixed;
@@ -40,28 +33,28 @@
   letter-spacing: 0.05em;
 }
 
+/*Background Change*/
+
 #page1 {
-    background-color: rgba(0, 0, 0, 0.40);
-    -webkit-animation-name: blackFade;  
-    -webkit-animation-iteration-count: 1;  
-    -webkit-animation-duration: 3s; 
+  background: linear-gradient(
+    210deg,
+    rgba(105, 105, 105, 0.66), 
+    rgba(0, 0, 0, 0.40)
+    ), url("../images/bldng1.jpeg") repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    /*background-color: rgba(0, 0, 0, 0.40);*/
+    
 }
 
 .introDiv {
-  width: 55%;
+  width: 550px;
   padding: 0.2% 0 0.5% 0.8%;
   background-color: rgba(0, 0, 0, 0.55);
   border-radius: 11px;
-  margin-top: 10vh;
-}
-
-.quote {
-  width: 35%;
-  padding: 0.2% 0 0.5% 0.8%;
-  background-color: rgba(0, 0, 0, 0.55);
-  border-radius: 11px;
-  margin-top: 25%;
-  margin-left: 60%;
+  margin-top: 90px;
+  margin-left: 15px;
 }
 
 .items {
@@ -70,14 +63,76 @@
 
 #name {
   text-align: left;
+  color: white;
+}
+
+#jobTitle {
+  color: rgba(84, 110, 122, 1.0);
 }
 
 #page2 {
 	background-color: rgba(0, 0, 0, 0.50);
 }
 
+.workHeader {
+  width: 550px;
+  padding: 0.2% 0 0.5% 0.8%;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 11px;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+
+/*#projects h2 {
+  margin-right: 5%;
+}*/
+
+/*bootstrap images*/
+
+.col-md-4 {
+  padding-top: 15px;
+}
+
+.carousel-inner > .item > img {
+  border-radius: 11px;
+  padding: 0;
+  margin: 0;
+}
+
+#carousel-example-generic {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+#work h2 {
+  padding: 0.2% 0 0.5% 0.8%;
+  margin-left: 10px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 80%;
+}
+
+#work h4 {
+  padding: 0.2% 0 0.5% 0.8%;
+  margin-left: 10px;
+  text-align: right;
+  color: white;
+  position: absolute;
+  top: 200px;
+  width: 80%;
+}
+
+/*.carousel-inner {
+  position: relative;
+  width: 100%
+}*/
+
+
+
 #skillRow {
- display: flex;
  height: 100%;
 }
 
@@ -116,7 +171,7 @@ h1 {
   font-size: 380%; /* equates to 4em */
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
-  color: rgba(84, 110, 122, 1.0);
+  color:white;
 }
 
 h2 {
