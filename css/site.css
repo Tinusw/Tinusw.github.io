@@ -130,6 +130,10 @@
   overflow: hidden;
 }
 
+#work {
+  visibility: hidden;
+}
+
 #work h2 {
   padding: 0.2% 0 0.5% 0.8%;
   margin-left: 10px;

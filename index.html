@@ -15,6 +15,8 @@
     <!-- Custom styles for this template go here -->
     <link rel="stylesheet" href="css/site.css">
 
+    <!-- Scripts -->
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -192,7 +194,7 @@
       </div>
 
       <div class="row" id="skillRow">
-        <div class="col-md-4" id="skill1">
+        <div class="col-md-4" id="skill1" >
           <i class="icon icnon-html5">
             <p> Insert Icon </p>
           </i>
@@ -259,6 +261,9 @@
       </div>
     </div>
 
+    <div class="section-class-name"></div>
+    <div class="section-class-name"></div>
+
 
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
@@ -272,36 +277,20 @@
 
     <!-- Can place script tags with JavaScript files here -->
 
+    <!-- Including my own js file  -->
+
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/site.js"></script>
+
     <!-- ScrollReveal Code -->
     <script type="text/javascript">
       window.sr = ScrollReveal({ reset: true, mobile: false });
-      sr.reveal('#work', 500);
-      sr.reveal('#page3');
-    </script>
+      sr.reveal('#work', 500 );
 
-    <!-- Smooth Scrolling -->
-    <script type="text/javascript">
-      var $root = $('html, body');
-        $('.navbar a').click(function() {
-            var href = $.attr(this, 'href');
-            $root.animate({
-                scrollTop: $(href).offset().top
-            }, 500, function () {
-               window.location.hash = href;
-            });
-            return false;
-        });
-    </script>
-    
-    <!-- Suppossed to be smooth scroll for nav -->
-    <script type="text/javascript">
-      $('nav a').click(function () {
-        var $href = $(this).attr('href');
-        $('body').stop().animate({
-          scrollTop: $($href).offset().top
-        }, 1000);
-        return false;
-      });
+      sr.reveal('#skill1', {delay: 300, origin: 'bottom'});
+      sr.reveal('#skill2', {delay: 300, origin: 'top'});
+      sr.reveal('#skill3', {delay: 300, origin: 'bottom'});
+
     </script>
 
   </body>
