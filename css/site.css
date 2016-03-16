@@ -166,6 +166,18 @@ body {
   -o-background-size: cover;
 }
 
+#skillRowA {
+  visibility: hidden;
+}
+
+#skillRowB {
+  visibility: hidden;
+}
+
+#skillRowC {
+  visibility: hidden;
+}
+
 .col-md-4 {
   padding-top: 1%;
 }
