@@ -2,8 +2,12 @@
 /* Main Styling */
 /**/
 
+body {
+  height: 100vh;
+}
+
 .container {
-	height: 50vh;
+	height: 50%;
   width: 100%;
 }
 
@@ -13,10 +17,10 @@
 
 .navbar {
   position: fixed;
-  padding: 0.2% 0 0 0;
+  padding: 0 0 0 0;
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
-/*  min-height: 25px;*/
+  max-height: 40px;
   z-index: 10;
 }
 
@@ -33,7 +37,7 @@
 .navbar ul li a {
   font-size: 16px;
   float: left;
-  padding: 20px 20px 20px;
+  padding: 15px 20px 20px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -76,11 +80,13 @@
 }
 
 #name {
+  font-size: 4em;
   text-align: left;
   color: white;
 }
 
 #jobTitle {
+  font-size: 4em;
   color: rgba(84, 110, 122, 1.0);
 }
 
@@ -95,17 +101,13 @@
   -o-background-size: cover;
 }
 
-.workHeader {
+.pageHeader {
   width: 550px;
   padding-left: 0.5%;
   background-color: rgba(0, 0, 0, 0.55);
   border-radius: 11px;
-  margin-left: 30px;
+  margin-left: 15px;
 }
-
-/*#projects h2 {
-  margin-right: 5%;
-}*/
 
 /*bootstrap images*/
 
@@ -127,6 +129,7 @@
 }
 
 #work {
+  margin-top: 5%;
   visibility: hidden;
 }
 
@@ -146,8 +149,8 @@
   text-align: right;
   color: white;
   position: absolute;
-  top: 180px;
-  width: 80%;
+  top: 80%;
+  width: 75%;
 }
 
 #page3 {
@@ -160,14 +163,6 @@
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-}
-
-.skillsHeader {
-  width: 550px;
-  padding-left: 0.5%;
-  background-color: rgba(0, 0, 0, 0.55);
-  border-radius: 11px;
-  margin-left: 15px;
 }
 
 #skill1 {
@@ -192,10 +187,6 @@
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
 }
 
 #splitter1 {
@@ -248,19 +239,13 @@
 
 #splitter2 {
   margin-top: -10px;
-  height: 50%;
-  background-color: rgba(0, 0, 255, 0.2);
+  /*height: 50%;*/
+  background-color: rgba(123, 123, 240, 0.1);
     )
 }
 
-
-
-.contactHeader {
-  width: 550px;
-  padding-left: 0.5%;
-  background-color: rgba(0, 0, 0, 0.55);
-  border-radius: 11px;
-  margin-left: 15px;
+#contactLinks {
+  width: 50%;
 }
 
 #page5 {
@@ -276,15 +261,6 @@
   background-color: rgba(140, 130, 130, 0.8);
 }
 
-.expHeader {
-  width: 550px;
-  padding-left: 0.5%;
-  background-color: rgba(0, 0, 0, 0.55);
-  border-radius: 11px;
-  margin-left: 15px;
-}
-
-
 /**/
 /*typography*/
 /**/
@@ -292,7 +268,7 @@
 h1 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 500;
-  font-size: 380%; /* equates to 4em */
+  font-size: 2em; /* equates to 4em */
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color:white;
@@ -303,7 +279,7 @@ h1 {
 h2 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 400;
-  font-size: 240%;
+  font-size: 1.5em;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
@@ -314,7 +290,7 @@ h2 {
 h3 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1em;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
@@ -325,7 +301,7 @@ h3 {
 h4 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 0.8em;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: rgba(84, 110, 122, 1.0);
@@ -336,7 +312,9 @@ h4 {
 a {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 200;
-  font-size: 1.5em;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(211, 211, 211, 1.0);
 
 }
 
