@@ -1,13 +1,9 @@
 $(document).ready(function(){
       // Smooth Scrolling
-      var $root = $('html, body');
-        $('.navbar ul a').click(function() {
-            var href = $.attr(this, 'href');
-            $root.animate({
-                scrollTop: $(href).offset().top
-            }, 500, function () {
-                window.location.hash = href;
-            });
+      $('.navbar ul a').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $(this).attr('href') ).offset().top
+            }, 500);
             return false;
-        });   
+        });
 });

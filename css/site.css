@@ -157,7 +157,7 @@
     rgba(105, 105, 105, 0.66), 
     rgba(0, 0, 255, 0.30)
     ), url("../images/Backgrounds/lndscp1.jpg") repeat center center fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
@@ -189,10 +189,71 @@
     rgba(105, 105, 105, 0.66), 
     rgba(255, 165, 0, 0.30)
     ), url("../images/Backgrounds/wndw1.jpg") repeat center center fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
 }
+
+#splitter1 {
+  margin-top: -10px;
+  height: 50%;
+}
+
+.button {
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px 10px 60px 10px;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  color: rgba(41, 121, 255, 1.0);
+  background: rgba(100, 150, 200, 0.7);
+  border: solid 5px #6496c8;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button a {
+  font-size: 2.4em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@-webkit-keyframes bluePulse {
+  from {color: rgba(144, 202, 249, 0.4); text-shadow: 0 0 9px #333; }
+  50% { color: rgba(144, 202, 249, 0.6); text-shadow: 0 0 18px rgba(144, 202, 249, 0.8); }
+  to { color: rgba(144, 202, 249, 0.4); text-shadow: 0 0 9px #333; }
+}
+
+.button:hover {
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-color: #90CAF9;
+  color: #90CAF9;
+}
+
+.button.active {
+  border-color: #27496d;
+  color: #27496d;
+}
+
+#splitter2 {
+  margin-top: -10px;
+  height: 50%;
+  background-color: rgba(0, 0, 255, 0.2);
+    )
+}
+
+
 
 .contactHeader {
   width: 550px;
@@ -209,7 +270,7 @@
     rgba(105, 105, 105, 0.66), 
     rgba(140, 130, 130, 0.8)
     ), url("../images/Backgrounds/proKitty.jpg") repeat center center fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-color: rgba(140, 130, 130, 0.8);
