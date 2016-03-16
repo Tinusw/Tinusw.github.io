@@ -67,7 +67,7 @@ body {
 }
 
 .introDiv {
-  width: 550px;
+  width: 600px;
   padding-left: 0.5%;
   padding-bottom: 0.5%;
   background-color: rgba(0, 0, 0, 0.55);
@@ -117,32 +117,44 @@ body {
   max-height: 260px;
 }
 
-.carousel-inner > .item > img {
-  border-radius: 11px;
-  padding: 0;
-  margin: 0;
-}
-
-#carousel-example-generic {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
 .workContainer {
-  margin-top: 5%;
   visibility: hidden;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  position: relative;
 }
 
-.workContainer a {
+/*On hover jQuery Text effect*/
+.clickInfo {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 11px;
+  background-color: rgba(128, 128, 128, 0.4);
+  margin: auto;
+  text-transform: uppercase;
   text-decoration: none;
+}
+
+.clickInfo a {
+  text-decoration: none;
+}
+
+.clickInfo h3 {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 50%;
 }
 
 .workContainer h2 {
   padding: 1% 0 0.5% 0.8%;
   margin-left: 10px;
   text-align: left;
-  color: lightgrey;
+  color: rgba(211, 221, 211, 1.0);
   position: absolute;
   top: -20px;
   width: 80%;
@@ -153,16 +165,17 @@ body {
   margin-left: 10px;
   text-align: right;
   color: lightgrey;
-  position: absolute;
+  /*position: absolute;*/
   top: 80%;
   width: 75%;
 }
 
-.clickInfo {
-  display: block;
-  margin: auto;
-  position: relative;
+.carousel-inner > .item > img {
+  border-radius: 11px;
+  padding: 0;
+  margin: 0;
 }
+
 
 /**/
 /*Modals*/

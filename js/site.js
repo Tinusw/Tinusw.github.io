@@ -9,7 +9,7 @@ $(document).ready(function(){
 
       // Text Overlay on Bootstrap Carousels
       $(".workContainer").mouseenter(function(){
-        $(".clickInfo", this).show();
+        $(".clickInfo", this).css("display", "inherit");
       });
 
       $(".workContainer").mouseleave(function(){
@@ -33,5 +33,4 @@ $(document).ready(function(){
         $('#work4Modal').modal('show');
       });
 
-      console.log('site.js executed successfully');
 });
