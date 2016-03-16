@@ -6,4 +6,32 @@ $(document).ready(function(){
             }, 500);
             return false;
         });
+
+      // Text Overlay on Bootstrap Carousels
+      $(".workContainer").mouseenter(function(){
+        $(".clickInfo", this).show();
+      });
+
+      $(".workContainer").mouseleave(function(){
+        $(".clickInfo", this).hide();
+      });      
+
+      // Modal Popups
+      $('#work').on("click", function(){
+        $('#workModal').modal('show');
+      });
+
+      $('#work2').on("click", function(){
+        $('#work2Modal').modal('show');
+      });
+
+      $('#work3').on("click", function(){
+        $('#work3Modal').modal('show');
+      });
+
+      $('#work4').on("click", function(){
+        $('#work4Modal').modal('show');
+      });
+
+      console.log('site.js executed successfully');
 });

@@ -129,29 +129,51 @@ body {
   overflow: hidden;
 }
 
-#work {
+.workContainer {
   margin-top: 5%;
   visibility: hidden;
 }
 
-#work h2 {
-  padding: 4.2% 0 0.5% 0.8%;
+.workContainer a {
+  text-decoration: none;
+}
+
+.workContainer h2 {
+  padding: 1% 0 0.5% 0.8%;
   margin-left: 10px;
   text-align: left;
-  color: white;
+  color: lightgrey;
   position: absolute;
-  top: 0;
+  top: -20px;
   width: 80%;
 }
 
-#work h4 {
+.workContainer h4 {
   padding: 0.2% 0 0.5% 0.8%;
   margin-left: 10px;
   text-align: right;
-  color: white;
+  color: lightgrey;
   position: absolute;
   top: 80%;
   width: 75%;
+}
+
+.clickInfo {
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+/**/
+/*Modals*/
+/**/
+
+.modal-title {
+  color: black;
+}
+
+.modal-desc {
+  color: black;
 }
 
 #page3 {
@@ -179,7 +201,7 @@ body {
 }
 
 .col-md-4 {
-  padding-top: 1%;
+  height: 250px;
 }
 
 #skill1 {
@@ -242,6 +264,7 @@ body {
 }
 
 #skill6 img {
+  padding-top: 5px;
   margin-left: 40px;
   width: 16.2%;
 }
@@ -269,6 +292,7 @@ body {
 }
 
 #skill9 img {
+  padding-top: 5px;
   margin-left: 40px;
   width: 16.2%;
 }
@@ -290,34 +314,30 @@ body {
   height: 50%;
 }
 
-.button {
-  margin: 0 auto;
-  margin-top: 40px;
-  padding: 10px 10px 60px 10px;
-  width: 200px;
-  height: 60px;
-  text-align: center;
-  color: rgba(41, 121, 255, 1.0);
-  background: rgba(100, 150, 200, 0.7);
-  border: solid 5px #6496c8;
-  -webkit-font-smoothing: antialiased;
-}
-
-.button a {
-  display: block;
-  color: rgba(0, 121, 255, 1.0);
-  font-size: 2.4em;
-  font-weight: 500;
-  text-decoration: none;
-}
-
 @-webkit-keyframes bluePulse {
   from {color: rgba(144, 202, 249, 0.4); text-shadow: 0 0 9px #333; }
   50% { color: rgba(144, 202, 249, 0.6); text-shadow: 0 0 18px rgba(144, 202, 249, 0.8); }
   to { color: rgba(144, 202, 249, 0.4); text-shadow: 0 0 9px #333; }
 }
 
-.button:hover {
+#emailButton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+  color: white;
+  font-size: 2.4em;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 2% 2% 0% 2%;
+  width: 20%;
+  height: 50%;
+  text-align: center;
+  background: rgba(100, 150, 200, 0.7);
+  border: solid 5px #6496c8;
+  -webkit-font-smoothing: antialiased;
+}
+
+#emailButton:hover {
   -webkit-animation-name: bluePulse;
   -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
@@ -330,7 +350,7 @@ body {
   color: #90CAF9;
 }
 
-.button.active {
+#emailButton.active {
   border-color: #27496d;
   color: #27496d;
 }
