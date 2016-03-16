@@ -234,6 +234,33 @@ body {
   width: 16.2%;
 }
 
+#skill7 {
+  background-color: rgba(255, 0, 255, 0.4);    
+}
+
+#skill7 img {
+  margin-left: 30px;
+  width: 13.5%;
+}
+
+#skill8 {
+  background-color: rgba(0, 255, 255, 0.3);    
+}
+
+#skill8 img {
+  margin-left: 40px;
+  width: 16.5%;
+}
+
+#skill9 {
+  background-color: rgba(255, 165, 0, 0.3);    
+}
+
+#skill9 img {
+  margin-left: 40px;
+  width: 16.2%;
+}
+
 #page4 {
   height: 50vh;
   background: linear-gradient(
