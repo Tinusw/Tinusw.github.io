@@ -9,6 +9,7 @@ body {
 .container {
 	height: 50%;
   width: 100%;
+  
 }
 
 /**/
@@ -111,7 +112,7 @@ body {
 
 /*bootstrap images*/
 
-.col-md-4 {
+.col-md-3 {
   padding-top: 15px;
   max-height: 260px;
 }
@@ -134,7 +135,7 @@ body {
 }
 
 #work h2 {
-  padding: 0.2% 0 0.5% 0.8%;
+  padding: 4.2% 0 0.5% 0.8%;
   margin-left: 10px;
   text-align: left;
   color: white;
@@ -154,7 +155,7 @@ body {
 }
 
 #page3 {
-  height: 50vh;
+  height: 100vh;
 	background: linear-gradient(
     210deg,
     rgba(105, 105, 105, 0.66), 
@@ -165,16 +166,72 @@ body {
   -o-background-size: cover;
 }
 
+.col-md-4 {
+  padding-top: 1%;
+}
+
 #skill1 {
   background-color: rgba(140, 130, 130, 0.4);
+}
+
+#skill1 img {
+  margin-left: 30px;
+  height: 15%;
+  width: 15%;
 }
 
 #skill2 {
   background-color: rgba(0, 0, 0, 0.40);
 }
 
+#skill2 img {
+  margin-left: 40px;
+  width: 52%;
+}
+
 #skill3 {
-  background-color: rgba(100, 0, 0, 0.6);
+  background-color: rgba(100, 0, 0, 0.6);    
+}
+
+#skill3 img {
+  padding-top: 1%;
+  margin-left: 30px;
+/*  width: 14.2%;*/
+}
+
+#gitImg {
+  width: 14.2%;
+}
+
+#GithubImg {
+  width: 30%;
+}
+
+#skill4 {
+  background-color: rgba(0, 128, 0, 0.2);    
+}
+
+#skill4 img {
+  margin-left: 30px;
+  width: 13.5%;
+}
+
+#skill5 {
+  background-color: rgba(0, 0, 100, 0.2);    
+}
+
+#skill5 img {
+  margin-left: 40px;
+  width: 16.5%;
+}
+
+#skill6 {
+  background-color: rgba(0, 128, 128, 0.1);    
+}
+
+#skill6 img {
+  margin-left: 40px;
+  width: 16.2%;
 }
 
 #page4 {

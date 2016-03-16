@@ -107,7 +107,7 @@
             <h2> Ruby On Rails Webstore</h2>
             <h4> More Info? </h4>
           </div> <!--/container-->
-        </div><!-- /col-md-4 -->
+        </div><!-- /col-md-3 -->
 
         <div class="col-md-3">
           <div class="container" id="work">
@@ -145,7 +145,7 @@
             <h2> Angular Todo App</h2>
             <h4> More Info? </h4>
           </div> <!--/container-fluid -->
-        </div><!-- /col-md-4 -->
+        </div><!-- /col-md-3 -->
 
         <div class="col-md-3">
           <div class="container" id="work">
@@ -183,7 +183,7 @@
             <h2> jQuery Calculator</h2>
             <h4> More Info? </h4>
           </div> <!--/container-fluid -->
-        </div><!-- /col-md-4 -->
+        </div><!-- /col-md-3 -->
 
         <div class="col-md-3">
           <div class="container" id="work">
@@ -221,7 +221,7 @@
             <h2> jQuery Calculator</h2>
             <h4> More Info? </h4>
           </div> <!--/container-fluid -->
-        </div><!-- /col-md-4 -->
+        </div><!-- /col-md-3 -->
         
       </div><!-- /Row -->
     </div> <!-- /container -->
@@ -233,12 +233,15 @@
 
       <div class="row" id="skillRow">
         <div class="col-md-4" id="skill1" >
-          <i class="icon icnon-html5">
-            <p> Insert Icon </p>
-          </i>
+          <div class="row">
+            <img src="images/SkillLogo/HTML5.png" alt="carousel2" id="skillImg1">
+            <img src="images/SkillLogo/CSS.png" alt="carousel2" id="skillImg2">
+            <img src="images/SkillLogo/AngularJS.png" alt="carousel2" id="skillImg3">
+            <img src="images/SkillLogo/jQuery.png" alt="carousel2" id="skillImg4">
+          </div>
           <div class="text">
             <h3> 
-               Frontend Development 
+               Web Development 
             </h3>
             <h4>
               Whether you need a new website, or updates to an existing application. if it involves the web, I can certainly help.
@@ -252,9 +255,9 @@
         </div>
 
         <div class="col-md-4" id="skill2">
-          <i class="icon icnon-html5">
-            <p> Insert Icon </p>
-          </i>
+          <div class="row">
+            <img src="images/SkillLogo/Bootstrap.png" alt="carousel2">
+          </div>
           <div class="text">
             <h3> 
               Responsive Design
@@ -269,9 +272,61 @@
         </div>
 
         <div class="col-md-4" id="skill3">
-          <i class="icon icnon-html5">
-            <p> Insert Icon </p>
-          </i>
+          <div class="row">
+            <img src="images/SkillLogo/Git.png" id="gitImg">
+            <img src="images/SkillLogo/Github.png" id="GithubImg">
+          <div class="text">
+            <h3> 
+              Source Control 
+            </h3>
+            <h4>
+              Code is what brings an idea from sketch on a notepad, to a living website. But it isn't the only thing.
+            </h4>
+            <p>
+              Budgeting, deadlines, co-ordination, organisation. Words many of us aren't fond of. Nevertheless, they play a critical role in successful projects. From big to small, from web-based startup to multi-national bank. I know how to get to the finish line.
+            </p>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-md-4" id="skill4" >
+          <div class="row">
+            <img src="images/SkillLogo/RubyRails.png" id="skillImg1">
+          </div>
+          <div class="text">
+            <h3> 
+               Backend Development 
+            </h3>
+            <h4>
+              While the visual side of modern websites drive your customers, the backend drives your application performance.
+            </h4>
+            <p>
+              I know what happens under the hood of your Rails applications. From creating Models & Controllers, all the way through to routing, caching and setting up AJAX requests. I only use the most mature gems to ensure your app are production ready.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4" id="skill5">
+          <div class="row">
+            <img src="images/SkillLogo/Nodejs.png" alt="carousel1">
+            <img src="images/SkillLogo/React.png" alt="carousel2">
+          </div>
+          <div class="text">
+            <h3> 
+              I'm Always Learning
+            </h3>
+            <h4>
+              The world of development constantly changes, so it's important to stay humble, and keep learning.
+            </h4>
+            <p>
+              Development branches out in many complex and interesting directions. Front End, Back End, Full Stack, Mobile, even VR. I am more than willing to learn, and always open to new tools and techniques.    
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4" id="skill6">
+          <div class="row">
+            <img src="images/SkillLogo/Management.png">
           <div class="text">
             <h3> 
               Project Management 
@@ -284,7 +339,8 @@
             </p>
           </div>
         </div>
-      </div>             
+      </div> 
+      </div>            
     </div> <!-- /container -->
 
     <div class="container" id="page4">
@@ -330,9 +386,12 @@
     <script type="text/javascript">
       window.sr = ScrollReveal({ reset: true, mobile: false });
       sr.reveal('#work', 500 );
-      sr.reveal('#skill1', {delay: 300, origin: 'bottom'});
-      sr.reveal('#skill2', {delay: 300, origin: 'top'});
-      sr.reveal('#skill3', {delay: 300, origin: 'bottom'});
+      sr.reveal('#skill1', {delay: 300, origin: 'top'});
+      sr.reveal('#skill2', {delay: 500, origin: 'top'});
+      sr.reveal('#skill3', {delay: 600, origin: 'top'});
+      sr.reveal('#skill4', {delay: 600, origin: 'bottom'});
+      sr.reveal('#skill4', {delay: 500, origin: 'bottom'});
+      sr.reveal('#skill4', {delay: 300, origin: 'bottom'});
     </script>
 
   </body>
