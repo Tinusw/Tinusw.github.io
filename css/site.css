@@ -451,7 +451,7 @@ a {
 
 ul, li, p, label, td {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1em;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;

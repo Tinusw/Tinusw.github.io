@@ -1,0 +1,57 @@
+/**/
+/* Main Styling */
+/**/
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+/**/
+/*Individual Pages*/
+/**/
+
+/*Page 1*/
+
+@-webkit-keyframes greyBlack {  
+  0% { background-color: grey; }
+  50% { background-color: grey; }
+  51% { background-color: black; }
+  100% { background-color: black; }
+}
+
+@-webkit-keyframes greyBlackFade {  
+  0% { background-color: grey; }
+  50% { background-color: black; }
+  100% { background-color: grey; }
+}
+
+#page1 {
+    /*background-color: grey;*/
+    -webkit-animation-name: greyblack  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2s; 
+}   
+
+
+#page2 {
+  background-color: lightgrey;
+}
+
+#page3 {
+  background-color: brown;
+}
+
+#page4 {
+  background-color: lightyellow;
+}
+
+#page5 {
+  background-color: lightpink;
+}
+
+/**/
+/*typography*/
+/*
