@@ -12,6 +12,7 @@ body {
   
 }
 
+
 /**/
 /*Page 1*/
 /**/
@@ -146,6 +147,12 @@ body {
   text-decoration: none;
 }
 
+/*Getting rid of the worlds most irritating underline on a link*/
+
+.clickinfo a:hover, a:link, a:active {
+  text-decoration: none;
+}
+
 .clickInfo h3 {
   height: 100%;
   width: 100%;
@@ -230,40 +237,115 @@ body {
   width: 15%;
 }
 
+#html5Link img {
+  opacity: 0.4;
+}
+
+#html5Link img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
+}
+
+#css3Link img {
+  opacity: 0.4;
+}
+
+#css3Link img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
+}
+
+#angularLink img {
+  opacity: 0.4;
+}
+
+#angularLink img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
+}
+
+#jqueryLink img {
+  opacity: 0.4;
+}
+
+#jqueryLink img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
+}
+
 #skill2 {
   background-color: rgba(0, 0, 0, 0.40);
 }
 
-#skill2 img {
+#btstrpLink img {
   margin-left: 40px;
   width: 52%;
+  opacity: 0.4
+}
+
+#btstrpLink img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
 }
 
 #skill3 {
-  background-color: rgba(100, 0, 0, 0.6);    
+  background-color: rgba(100, 0, 0, 0.6);  
+  padding-left: 2%;  
 }
 
-#skill3 img {
+#gitLink img {
   padding-top: 1%;
   margin-left: 30px;
-/*  width: 14.2%;*/
-}
-
-#gitImg {
   width: 14.2%;
+  opacity: 0.4
 }
 
-#GithubImg {
-  width: 30%;
+#gitLink img:hover{
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
 }
 
 #skill4 {
   background-color: rgba(0, 128, 0, 0.2);    
 }
 
-#skill4 img {
+#rorLink img {
   margin-left: 30px;
   width: 13.5%;
+  opacity: 0.4;
+}
+
+#rorLink img:hover{
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
 }
 
 #skill5 {
@@ -276,34 +358,84 @@ body {
 }
 
 #skill6 {
+  padding-left: 2%;
   background-color: rgba(0, 128, 128, 0.1);    
 }
 
-#skill6 img {
+#pmLink img {
   padding-top: 5px;
   margin-left: 40px;
-  width: 16.2%;
+  width: 15.5%;
+  opacity: 0.5;
+}
+
+#pmLink img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1;
 }
 
 #skill7 {
   background-color: rgba(255, 0, 255, 0.4);    
 }
 
-#skill7 img {
-  margin-left: 30px;
-  width: 13.5%;
+#nodeLink img {
+  margin-left: 40px;
+  width: 16.5%;
+  opacity: 0.5;
+}
+
+#nodeLink img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 0.9;
+}
+
+#reactLink img {
+  padding-left: 1%;
+  width: 16%;
+  padding-bottom: 1%;
+  opacity: 0.5;
+}
+
+#reactLink img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 0.9;
 }
 
 #skill8 {
   background-color: rgba(0, 255, 255, 0.3);    
 }
 
-#skill8 img {
-  margin-left: 40px;
-  width: 16.5%;
+#githubLink img {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 30px;
+  width: 42%;
+  opacity: 0.5;
+}
+
+#githubLink img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 1.4;
 }
 
 #skill9 {
+  padding-left: 2%;
   background-color: rgba(255, 165, 0, 0.3);    
 }
 
@@ -332,7 +464,7 @@ body {
   resize: vertical;
   overflow: auto;
   margin-top: -10px;
-  height: 80%;
+  height: 70%;
 }
 
 @-webkit-keyframes bluePulse {
@@ -373,14 +505,69 @@ body {
 }
 
 #splitter2 {
-  margin-top: -10px;
-  height: 20%;
+  margin-top: 1%;
+  height: 30%;
   background-color: rgba(123, 123, 240, 0.1);
     )
 }
 
 #contactLinks {
-  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15%;
+}
+
+#contactTwit img {
+  padding-top: 0.65%;
+  padding-bottom: 0.75%;
+  
+  width: 5%;
+}
+
+#contactTwit img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-color: rgba(123, 123, 240, 1.0);
+  border-radius: 12px;
+  background-color: rgba(123, 123, 240, 1.0);
+  box-shadow: 0 0 8px rgba(123, 123, 240, 1.0);
+}
+
+#contactGithub img {
+  width: 18%;
+}
+
+#contactGithub img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-color: rgba(123, 123, 240, 1.0);
+  border-radius: 12px;
+  background-color: rgba(123, 123, 240, 1.0);
+  box-shadow: 0 0 8px rgba(123, 123, 240, 1.0);
+}
+
+
+#contactLinkedIn img {
+  width: 5%;
+}
+
+#contactLinkedIn img:hover {
+  /*CSS transition Smoothing*/
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-color: rgba(123, 123, 240, 1.0);
+  border-radius: 12px;
+  background-color: rgba(123, 123, 240, 1.0);
+  box-shadow: 0 0 8px rgba(123, 123, 240, 1.0);
 }
 
 #page5 {
@@ -487,7 +674,7 @@ footer {
   }
 
   .col-md-4 {
-    height: 31.24vh;
+    height: 32vh;
   }
 
 }
@@ -495,7 +682,7 @@ footer {
 /*larger than 960px;*/
 @media only screen and (min-width:960px){
   .col-md-4 {
-    height: 31.44vh;
+    height: 31.25vh;
   }
 }
 
