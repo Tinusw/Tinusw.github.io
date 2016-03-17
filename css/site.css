@@ -114,13 +114,6 @@ body {
   margin-left: 15px;
 }
 
-/*bootstrap images*/
-
-#workBtsrp {
-  padding-top: 15px;
-  max-height: 260px;
-}
-
 .workContainer {
   visibility: hidden;
   display: block;
@@ -161,13 +154,16 @@ body {
 }
 
 .workContainer h2 {
+  font-weight: 500;
+  font-size: 1.8em;
   padding: 1% 0 0.5% 0.8%;
   margin-left: 10px;
   text-align: left;
   color: rgba(211, 221, 211, 1.0);
   position: absolute;
-  top: -20px;
+  top: 77%;
   width: 80%;
+  text-shadow: 2px 1px 1px black;
 }
 
 .workContainer h4 {
@@ -224,7 +220,8 @@ body {
 }
 
 .col-md-4 {
-  height: 33%;
+  /*height: 33%;*/
+  padding: 1% 1% 1% 1%;
 }
 
 #skill1 {
@@ -248,7 +245,6 @@ body {
 
 #skill3 {
   background-color: rgba(100, 0, 0, 0.6);  
-  padding-left: 2%;  
 }
 
 #gitLink img {
@@ -649,6 +645,11 @@ footer {
   .pageHeader {
     width: 38%;
   }
+
+  .workContainer h2 {
+  top: 45%;
+  width: 80%;
+}
 
   #workRow{
     margin-top: 15%;
