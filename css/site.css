@@ -232,61 +232,9 @@ body {
 }
 
 #skill1 img {
-  margin-left: 30px;
+  margin-left: 25px;
   height: 15%;
   width: 15%;
-}
-
-#html5Link img {
-  opacity: 0.4;
-}
-
-#html5Link img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
-}
-
-#css3Link img {
-  opacity: 0.4;
-}
-
-#css3Link img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
-}
-
-#angularLink img {
-  opacity: 0.4;
-}
-
-#angularLink img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
-}
-
-#jqueryLink img {
-  opacity: 0.4;
-}
-
-#jqueryLink img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
 }
 
 #skill2 {
@@ -296,16 +244,6 @@ body {
 #btstrpLink img {
   margin-left: 40px;
   width: 52%;
-  opacity: 0.4
-}
-
-#btstrpLink img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
 }
 
 #skill3 {
@@ -317,16 +255,6 @@ body {
   padding-top: 1%;
   margin-left: 30px;
   width: 14.2%;
-  opacity: 0.4
-}
-
-#gitLink img:hover{
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
 }
 
 #skill4 {
@@ -336,16 +264,6 @@ body {
 #rorLink img {
   margin-left: 30px;
   width: 13.5%;
-  opacity: 0.4;
-}
-
-#rorLink img:hover{
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
 }
 
 #skill5 {
@@ -364,18 +282,8 @@ body {
 
 #pmLink img {
   padding-top: 5px;
-  margin-left: 40px;
+  margin-left: 20px;
   width: 15.5%;
-  opacity: 0.5;
-}
-
-#pmLink img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1;
 }
 
 #skill7 {
@@ -383,34 +291,14 @@ body {
 }
 
 #nodeLink img {
-  margin-left: 40px;
+  margin-left: 35px;
   width: 16.5%;
-  opacity: 0.5;
-}
-
-#nodeLink img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 0.9;
 }
 
 #reactLink img {
   padding-left: 1%;
   width: 16%;
   padding-bottom: 1%;
-  opacity: 0.5;
-}
-
-#reactLink img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 0.9;
 }
 
 #skill8 {
@@ -422,16 +310,6 @@ body {
   padding-bottom: 2%;
   margin-left: 30px;
   width: 42%;
-  opacity: 0.5;
-}
-
-#githubLink img:hover {
-  /*CSS transition Smoothing*/
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 1.4;
 }
 
 #skill9 {
@@ -441,7 +319,7 @@ body {
 
 #skill9 img {
   padding-top: 5px;
-  margin-left: 40px;
+  margin-left: 20px;
   width: 16.2%;
 }
 
