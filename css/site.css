@@ -504,22 +504,45 @@ footer {
   #page3 {
     height: 100%;
   }
-
 }
 
-/*Tablets save for later */
-/*@media only screen and (device-width:768px){
+/*Tablets */
+/*Landscape Orientation*/
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
   #page1 {
-    height: 40vh;
+    height: 50vh;
   }
   .introDiv {
-    margin-top: 11%;
+    margin-top: 7%;
+  }
+  .pageHeader {
+    width: 33%;
   }
 
   #page3 {
     height: 100%;
   }
+
+  .col-md-4 {
+    height: 35vh;
+  }
 }
 
-/**/
+/*Portrait orientation*/
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  .navbar ul li a {
+    padding-left: 0;
+    padding-right: 1%;
+  }
+
+  .pageHeader {
+    width: 38%;
+  }
+
+  #workRow{
+    margin-top: 15%;
+
+  }
+}
+
 
