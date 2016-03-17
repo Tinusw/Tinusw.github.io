@@ -23,6 +23,7 @@ body {
   width: 100%;
   max-height: 4%;
   z-index: 10;
+  font-weight: 400;
 }
 
 .navbar ul {
@@ -470,7 +471,41 @@ footer {
   -webkit-font-smoothing: antialiased;
 }
 
+
+
 /*Media Queries*/
+
+/*Browsers*/
+/*larger than 800px*/
+@media only screen and (min-width:800px){
+  .introDiv {
+    margin-top: 7%;
+  }
+
+  #page3 {
+    height: 100vh;
+  }
+
+  .col-md-4 {
+    height: 31.24vh;
+  }
+
+}
+
+/*larger than 960px;*/
+@media only screen and (min-width:960px){
+  .col-md-4 {
+    height: 31.44vh;
+  }
+}
+
+/*larger than 1440px;*/
+@media only screen and (min-width:1440px){
+}
+
+/*sumo sized (mac) screens*/
+@media only screen and (min-width:2000px){
+    }
 
 /*MOBILE*/
 
@@ -524,8 +559,19 @@ footer {
   }
 
   .col-md-4 {
-    height: 35vh;
+    height: 31.1vh;
+    font-size: 0.85em;
   }
+
+  #emailButton {
+  resize: vertical;
+  margin: 0 auto;
+  text-align: center;
+  width: 25%;
+  color: white;
+}
+
+
 }
 
 /*Portrait orientation*/
@@ -543,6 +589,13 @@ footer {
     margin-top: 15%;
 
   }
+
+  #emailButton {
+  resize: vertical;
+  margin: 0 auto;
+  text-align: center;
+  width: 25%;
+  color: white;
 }
 
 
