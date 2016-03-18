@@ -19,12 +19,13 @@ body {
 
 .navbar {
   position: fixed;
+  z-index: 1;
   padding: 0 0 0 0;
-  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   max-height: 4%;
-  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.2);
   font-weight: 400;
+  
 }
 
 .navbar ul {
@@ -38,26 +39,27 @@ body {
 }
 
 .navbar ul li a {
-  font-size: 1em;
   float: left;
   padding: 15px 20px 20px;
+  font-size: 1em;
+  letter-spacing: 0.05em;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .navbar a:hover {
   color: rgba(255, 215, 0, 1.0);
   /*CSS transition Smoothing*/
+  transition: 0.8s;
   -moz-transition: 0.8s;
   -o-transition: 0.8s;
   -webkit-transition: 0.8s;
-  transition: 0.8s;
 }
 
 /*Background Change*/
 
 #page1 {
+  height: 50vh;
   background: linear-gradient(
     210deg,
     rgba(105, 105, 105, 0.00), 
@@ -66,17 +68,16 @@ body {
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 50vh;
 }
 
 .introDiv {
   width: 600px;
+  margin-top: 150px;
+  margin-left: 15px;
   padding-left: 0.5%;
   padding-bottom: 0.5%;
   background-color: rgba(0, 0, 0, 0.55);
   border-radius: 11px;
-  margin-top: 150px;
-  margin-left: 15px;
 }
 
 .items {
@@ -84,9 +85,9 @@ body {
 }
 
 #name {
+  color: white;
   font-size: 4em;
   text-align: left;
-  color: white;
 }
 
 #jobTitle {
@@ -95,6 +96,7 @@ body {
 }
 
 #page2 {
+  height: 50vh;
 	background: linear-gradient(
     210deg,
     rgba(105, 105, 105, 0.66), 
@@ -103,35 +105,34 @@ body {
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 50vh;
 }
 
 .pageHeader {
   width: 42%;
-  padding-left: 0.5%;
-  background-color: rgba(0, 0, 0, 0.55);
   border-radius: 11px;
   margin-left: 15px;
+  padding-left: 0.5%;
+  background-color: rgba(0, 0, 0, 0.55);
 }
 
 .workContainer {
-  visibility: hidden;
+  position: relative;
   display: block;
+  visibility: hidden;
   margin: auto;
   margin-top: 5%;
-  position: relative;
 }
 
 /*On hover jQuery Text effect*/
 .clickInfo {
-  display: none;
-  z-index: 1;
   position: absolute;
+  z-index: 1;
+  display: none;
   width: 100%;
   height: 100%;
   border-radius: 11px;
-  background-color: rgba(128, 128, 128, 0.4);
   margin: auto;
+  background-color: rgba(128, 128, 128, 0.4);
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -149,39 +150,37 @@ body {
 .clickInfo h3 {
   height: 100%;
   width: 100%;
-  text-align: center;
   margin-top: 50%;
+  text-align: center;
 }
 
 .workContainer h2 {
-  font-weight: 500;
-  font-size: 1.8em;
+  position: absolute;
+  top: 77%;
+  width: 80%;
   padding: 1% 0 0.5% 0.8%;
   margin-left: 10px;
   text-align: left;
   color: rgba(211, 221, 211, 1.0);
-  position: absolute;
-  top: 77%;
-  width: 80%;
+  font-weight: 500;
+  font-size: 1.8em;
   text-shadow: 2px 1px 1px black;
 }
 
 .workContainer h4 {
+  top: 80%;
+  width: 75%;
   padding: 0.2% 0 0.5% 0.8%;
   margin-left: 10px;
   text-align: right;
   color: lightgrey;
-  /*position: absolute;*/
-  top: 80%;
-  width: 75%;
 }
 
 .carousel-inner > .item > img {
-  border-radius: 11px;
   padding: 0;
   margin: 0;
+  border-radius: 11px;
 }
-
 
 /**/
 /*Modals*/
@@ -196,6 +195,7 @@ body {
 }
 
 #page3 {
+  height: 100%;
 	background: linear-gradient(
     210deg,
     rgba(105, 105, 105, 0.66), 
@@ -204,7 +204,6 @@ body {
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 100%;
 }
 
 #skillRowA {
@@ -220,7 +219,6 @@ body {
 }
 
 .col-md-4 {
-  /*height: 33%;*/
   padding: 1% 1% 1% 1%;
 }
 
@@ -229,9 +227,9 @@ body {
 }
 
 #skill1 img {
-  margin-left: 25px;
   height: 15%;
   width: 15%;
+  margin-left: 25px;
 }
 
 #skill2 {
@@ -239,8 +237,8 @@ body {
 }
 
 #btstrpLink img {
-  margin-left: 40px;
   width: 52%;
+  margin-left: 40px;
 }
 
 #skill3 {
@@ -248,9 +246,9 @@ body {
 }
 
 #gitLink img {
+  width: 14.2%;
   padding-top: 1%;
   margin-left: 30px;
-  width: 14.2%;
 }
 
 #skill4 {
@@ -258,8 +256,8 @@ body {
 }
 
 #rorLink img {
-  margin-left: 30px;
   width: 13.5%;
+  margin-left: 30px;
 }
 
 #skill5 {
@@ -267,19 +265,18 @@ body {
 }
 
 #skill5 img {
-  margin-left: 40px;
   width: 16.5%;
+  margin-left: 40px;
 }
 
 #skill6 {
-  padding-left: 2%;
   background-color: rgba(0, 128, 128, 0.1);    
 }
 
 #pmLink img {
+  width: 15.5%;
   padding-top: 5px;
   margin-left: 20px;
-  width: 15.5%;
 }
 
 #skill7 {
@@ -287,13 +284,13 @@ body {
 }
 
 #nodeLink img {
-  margin-left: 35px;
   width: 16.5%;
+  margin-left: 35px;
 }
 
 #reactLink img {
-  padding-left: 1%;
   width: 16%;
+  padding-left: 1%;
   padding-bottom: 1%;
 }
 
@@ -302,21 +299,19 @@ body {
 }
 
 #githubLink img {
+  width: 42%;
   padding-top: 2%;
   padding-bottom: 2%;
   margin-left: 30px;
-  width: 42%;
 }
 
 #skill9 {
-  padding-left: 2%;
   background-color: rgba(255, 165, 0, 0.3);    
 }
 
 #sndcldLink img {
-  /*padding-top: 5px;*/
-  margin-left: 10px;
   width: 16.7%;
+  margin-left: 10px;
 }
 
 #page4 {
@@ -332,13 +327,13 @@ body {
 }
 
 #splitter1 {
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   resize: vertical;
   overflow: auto;
   margin-top: -10px;
-  height: 70%;
 }
 
 @-webkit-keyframes bluePulse {
@@ -350,11 +345,11 @@ body {
 #emailButton {
   resize: vertical;
   margin: 0 auto;
+  padding: 2% 2% 2% 2%;
   color: white;
   font-size: 2.4em;
   font-weight: 500;
   text-decoration: none;
-  padding: 2% 2% 2% 2%;
   background: rgba(100, 150, 200, 0.7);
   border: solid 5px #6496c8;
   -webkit-font-smoothing: antialiased;
@@ -379,24 +374,23 @@ body {
 }
 
 #splitter2 {
-  margin-top: 1%;
   height: 30%;
+  margin-top: 1%;
   background-color: rgba(123, 123, 240, 0.1);
     )
 }
 
 #contactLinks {
-  margin: 0 auto;
-  text-align: center;
   width: 100%;
+  margin: 0 auto;
   margin-bottom: 15%;
+  text-align: center;
 }
 
 #contactTwit img {
-  padding-top: 0.60%;
-  padding-bottom: 0.60%;
-  
   width: 5%;
+  padding-top: 0.60%;
+  padding-bottom: 0.60%;  
 }
 
 #contactTwit img:hover {
@@ -405,8 +399,8 @@ body {
   -o-transition: 0.8s;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  border-color: rgba(123, 123, 240, 1.0);
   border-radius: 12px;
+  border-color: rgba(123, 123, 240, 1.0);
   background-color: rgba(123, 123, 240, 1.0);
   box-shadow: 0 0 8px rgba(123, 123, 240, 1.0);
 }
@@ -421,12 +415,11 @@ body {
   -o-transition: 0.8s;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  border-color: rgba(123, 123, 240, 1.0);
   border-radius: 12px;
+  border-color: rgba(123, 123, 240, 1.0);
   background-color: rgba(123, 123, 240, 1.0);
   box-shadow: 0 0 8px rgba(123, 123, 240, 1.0);
 }
-
 
 #contactLinkedIn img {
   width: 5%;
@@ -438,8 +431,8 @@ body {
   -o-transition: 0.8s;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  border-color: rgba(123, 123, 240, 1.0);
   border-radius: 12px;
+  border-color: rgba(123, 123, 240, 1.0);
   background-color: rgba(123, 123, 240, 1.0);
   box-shadow: 0 0 8px rgba(123, 123, 240, 1.0);
 }
@@ -454,7 +447,6 @@ body {
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-color: rgba(140, 130, 130, 0.8);
 }
 
 /**/
