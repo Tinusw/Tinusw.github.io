@@ -592,6 +592,18 @@ footer {
   #page3 {
     height: 100%;
   }
+
+  #contactTwit img {
+  width: 10%;
+  }
+
+  #contactGithub img {
+    width: 28%;
+  }
+
+  #contactLinkedIn img {
+    width: 10%;
+  }
 }
 
 /*Tablets */
@@ -654,6 +666,18 @@ footer {
   text-align: center;
   width: 25%;
   color: white;
+}
+
+#contactTwit img {
+  width: 8%;
+}
+
+#contactGithub img {
+  width: 23%;
+}
+
+#contactLinkedIn img {
+  width: 8%;
 }
 
 
