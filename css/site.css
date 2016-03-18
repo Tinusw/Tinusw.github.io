@@ -550,6 +550,10 @@ footer {
   .col-md-4 {
     height: 31.25vh;
   }
+
+  #splitter2 {
+    margin-top: -3%;
+  }
 }
 
 /*larger than 1440px;*/
