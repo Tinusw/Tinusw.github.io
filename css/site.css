@@ -9,9 +9,7 @@ body {
 .container {
 	height: 50%;
   width: 100%;
-  
 }
-
 
 /**/
 /*Page 1*/
@@ -25,7 +23,6 @@ body {
   max-height: 4%;
   background-color: rgba(0, 0, 0, 0.2);
   font-weight: 400;
-  
 }
 
 .navbar ul {
