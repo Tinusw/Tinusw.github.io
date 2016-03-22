@@ -182,9 +182,17 @@ body {
   border-radius: 11px;
 }
 
-/**/
 /*Modals*/
-/**/
+.modal-content {
+}
+
+.modal-body h4{
+  color: black;
+}
+
+.modal-body li {
+ color: black;
+}
 
 .modal-title {
   color: black;
@@ -192,6 +200,28 @@ body {
 
 .modal-desc {
   color: black;
+}
+
+#modalLink {
+  text-align: center;
+}
+
+#heroku {
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  color: orange;
+  border: solid 5px orange;
+}
+
+#heroku:hover {
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-radius: 12px;
+  border-color: rgba(255, 165, 0, 1.0);
+  background-color: rgba(255, 165, 0, 0.5);
+  box-shadow: 0 0 8px black;
+
 }
 
 #page3 {

@@ -10,13 +10,8 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-
     <!-- Custom styles for this template go here -->
     <link rel="stylesheet" href="css/site.css">
-
-    <!-- Scripts -->
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -105,15 +100,42 @@
 
         <!-- Work Modal Small modal -->
         <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="workModal">
-          <div class="modal-dialog modal-sm">
+          <div class="modal-dialog modal-md">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Project Name</h4>
+                <h4 class="modal-title" id="myModalLabel">Ruby On Rails Webstore</h4>
               </div>
 
               <div class="modal-body">
-                <h4 class="modal-desc"> Body - Project Details </h4>
+                <h4 class="modal-desc">Project Details </h4>
+                <h5> This is a fully production ready webstore built on Ruby on Rails. Users are able to sign up, make payments and write reviews for products sold on the website. It also features a sign up mailer, a fully functional AngularJS order page, and a pop-out sidebar made completely out of CSS!</h5>
+                <br>
+                <h4> Gems & Plugins Used </h4>
+                <li>Devise (Authentication)</li>
+                <li>CanCanCan (Authorization)</li>
+                <li>will_paginate (Pagination)</li>
+                <li>Raty jQuery plugin </li>
+                <li>RSpec</li>
+                <li>FactoryGirl (generating test data)</li>
+                <li>Guard (automate tasks)</li>
+                <li>Guard RSpec (automate RSpec tests)</li>
+                <li>Spork Rails (faster testing)</li>
+                <li>Guard-Spork</li>
+                <li>Stripe (Payment Processing)</li>
+                <li>AngularJS-Rails (Orders page)</li>
+                <li>Memcached</li>
+                <li>Redis</li>
+
+                <br>
+                <h4> The site also features an Angular JS page displaying existing order info, while allowing new orders to be added, just to test the functionality of the Angular integration. I also used a variety of jQuery tweaks and plugins to improve the sites usability.</h4>
+                <br>
+                <h2 id="modalLink"> <a href="https://ancient-ocean-10077.herokuapp.com" target="_blank" id="heroku"> Live on Heroku</a></h2>
+                <h4 id="modalLink">               
+                  <a href="https://github.com/Tinusw/RubyEcommerceSite" target="_blank" id=githubLink>
+                    <img src="images/SkillLogo/Github.png" alt="skillGithub">
+                  </a>
+                </h4>
               </div>
             </div><!-- Modal-content -->
           </div> <!-- Modal-dialog -->
@@ -165,15 +187,44 @@
 
         <!-- Work2 Modal Small modal -->
         <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work2Modal">
-          <div class="modal-dialog modal-sm">
+          <div class="modal-dialog modal-md">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Project Name</h4>
+                <h4 class="modal-title" id="myModalLabel">A todo list with AngularJS</h4>
               </div>
 
               <div class="modal-body">
-                <h4 class="modal-desc"> Body - Project Details </h4>
+                <h4 class="modal-desc">Project Details </h4>
+                <h5> A one-page ToDo list app that allows users to view, add, and delete ToDos from the same page without reloading it or having to go to another page. 
+
+                The application is built on a Rails backend, and allows the AngularJS frontend to Create, Read and Destroy database information via JSON requests.
+
+                Although the application is not the most complex todo list you'll ever see it does explore the fundamentals of Angular</h5>
+
+                <br>
+
+                <h4> Gems Used </h4>
+                <li>angularjs-Rails</li>
+                <li>responders</li>
+                <br>
+                <h4> Angular Directives and services used</h4>
+                <li> ng-show </li>
+                <li> ng-repeat </li>
+                <li> ng-submit </li>
+                <li> ng-click </li>
+                <li> ng-model </li>
+                <li> ng-resource </li>
+                <li> factory</li>
+
+                <br>
+
+                <h2 id="modalLink"> <a href="https://boiling-springs-86181.herokuapp.com/" target="_blank" id="heroku"> Live on Heroku</a></h2>
+                <h4 id="modalLink">               
+                  <a href="https://github.com/Tinusw/AngularTodo" target="_blank" id=githubLink>
+                    <img src="images/SkillLogo/Github.png" alt="skillGithub">
+                  </a>
+                </h4>
               </div>
             </div><!-- Modal-content -->
           </div> <!-- Modal-dialog -->
@@ -229,11 +280,26 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Project Name</h4>
+                <h4 class="modal-title" id="myModalLabel">A Pure jQuery Calculator</h4>
               </div>
 
               <div class="modal-body">
-                <h4 class="modal-desc"> Body - Project Details </h4>
+                <h4 class="modal-desc">Project Details </h4>
+                <h5> I built this project to get a solid grasp on jQuery, and to explore the options beyond the myriad of pre-made plugins available online. </h5>
+
+                <br>
+                
+                <h4> Features</h4>
+                <li> Splits operator and number inputs into two separate sections </li>
+                <li> written in less than 100 lines of code </li>
+                <br>
+
+                <h2 id="modalLink"> <a href="http://explorer-lizard-74564.bitballoon.com/" target="_blank" id="heroku"> Live on Heroku</a></h2>
+                <h4 id="modalLink">               
+                  <a href="https://github.com/Tinusw/jQueryCalculator" target="_blank" id=githubLink>
+                    <img src="images/SkillLogo/Github.png" alt="skillGithub">
+                  </a>
+                </h4>
               </div>
             </div><!-- Modal-content -->
           </div> <!-- Modal-dialog -->
@@ -249,16 +315,16 @@
       <div class="row" id="skillRowA">
         <div class="col-xs-12 col-md-4" id="skill1" >
           <div class="row">
-            <a href="http://html5.com/" id=html5Link>
+            <a href="http://html5.com/" target="_blank" id=html5Link>
               <img src="images/SkillLogo/HTML5.png" alt="carousel2">
             </a>
-            <a href="https://developer.mozilla.org/en/docs/Web/CSS/CSS3" id="css3Link">
+            <a href="https://developer.mozilla.org/en/docs/Web/CSS/CSS3" target="_blank" id="css3Link">
               <img src="images/SkillLogo/CSS.png" alt="carousel2">
             </a>
-            <a href="https://angularjs.org/" id="angularLink">
+            <a href="https://angularjs.org/" target="_blank" id="angularLink">
               <img src="images/SkillLogo/AngularJS.png" alt="carousel2">
             </a>
-            <a href="https://jquery.com/" id="jqueryLink">
+            <a href="https://jquery.com/" target="_blank" id="jqueryLink">
               <img src="images/SkillLogo/jQuery.png" alt="carousel2" >
             </a>
           </div>
@@ -279,7 +345,7 @@
 
         <div class="col-xs-12 col-md-4" id="skill2">
           <div class="row">
-            <a href="http://getbootstrap.com/" id="btstrpLink">
+            <a href="http://getbootstrap.com/" target="_blank" id="btstrpLink">
               <img src="images/SkillLogo/Bootstrap.png" alt="bootstrapImg">
             </a>
           </div>
@@ -298,7 +364,7 @@
 
         <div class="col-xs-12 col-md-4" id="skill3">
           <div class="row">
-            <a href="https://git-scm.com/" id="gitLink">
+            <a href="https://git-scm.com/" target="_blank" id="gitLink">
               <img src="images/SkillLogo/Git.png" id="gitImg">
             </a>
           </div>
@@ -319,7 +385,7 @@
       <div class="row" id="skillRowB">
         <div class="col-xs-12 col-md-4" id="skill4" >
           <div class="row">
-            <a href="http://rubyonrails.org/" id="rorLink">
+            <a href="http://rubyonrails.org/" target="_blank" id="rorLink">
               <img src="images/SkillLogo/RubyRails.png">
             </a>
           </div>
@@ -338,25 +404,26 @@
 
         <div class="col-xs-12 col-md-4" id="skill5">
           <div class="row">
-            <img src="images/SkillLogo/NodeJS.png" alt="carousel1">
-            <img src="images/SkillLogo/React.png" alt="carousel2">
+            <a href="https://github.com/Tinusw" target="_blank" id=githubLink>
+              <img src="images/SkillLogo/Github.png" alt="skillGithub">
+            </a>
           </div>
           <div class="text">
             <h3> 
-              SOMETHING ELSE
+              I Push Often!
             </h3>
             <h4>
-              DON"T HIGHLIGHT THIS STUFF
+              The way out is through. I spend a lot of my free time building.
             </h4>
             <p>
-              Development branches out in many complex and interesting directions. Front End, Back End, Full Stack, Mobile, even VR. I am more than willing to learn, and always open to new tools and techniques.    
+              New tricks, new techniques, new experiments. I'm always dabbeling. Feel free to check out what I'm working on!    
             </p>
           </div>
         </div>
 
         <div class="col-xs-12 col-md-4" id="skill6">
           <div class="row">
-            <a href="https://de.linkedin.com/in/tinus-wagner-79ab38b0" id="pmLink">
+            <a href="https://de.linkedin.com/in/tinus-wagner-79ab38b0" target="_blank" id="pmLink">
               <img src="images/SkillLogo/Management.png">
             </a>
           </div>
@@ -380,7 +447,7 @@
             <a href="https://nodejs.org/" id="nodeLink">
               <img src="images/SkillLogo/NodeJS.png" alt="nodejs">
             </a>
-            <a href="https://facebook.github.io/react/" id="reactLink">
+            <a href="https://facebook.github.io/react/" target="_blank" id="reactLink">
               <img src="images/SkillLogo/React.png" alt="reactJS">
             </a>
           </div>
@@ -399,7 +466,7 @@
 
         <div class="col-xs-12 col-md-4" id="skill8">
           <div class="row">
-            <a href="https://github.com/Tinusw" id=githubLink>
+            <a href="https://github.com/Tinusw" target="_blank" id=githubLink>
               <img src="images/SkillLogo/Github.png" alt="skillGithub">
             </a>
           </div>
@@ -418,7 +485,7 @@
 
         <div class="col-xs-12 col-md-4" id="skill9">
           <div class="row">
-            <a href="https://soundcloud.com/vertelmy" id="sndcldLink">
+            <a href="https://soundcloud.com/vertelmy" target="_blank" id="sndcldLink">
               <img src="images/SkillLogo/Sndcloud.png">
             </a>
           </div>
@@ -478,9 +545,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap core JS -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Can place script tags with JavaScript files here -->
-
      <!-- ScrollReveal JS -->
     <script src="js/scrollreveal.min.js"></script>
 
@@ -493,7 +557,6 @@
     <script type="text/javascript">
       window.sr = ScrollReveal({ reset: true });
       sr.reveal('.workContainer', 300 );
-
 
       sr.reveal('#skill1', {delay: 300, origin: 'top'});
       sr.reveal('#skill2', {delay: 400, origin: 'top'});
