@@ -586,12 +586,12 @@ footer {
 
   .col-md-4 {
     height: 30.56vh;
-    font-size: 0.8em;
     padding-top: 0.5%;
   }
 
   .col-md-4 {
-    font-weight: 1000;
+    font-weight: 600;
+    font-size: 0.8em;
   }
 
   #skill1 img {
@@ -648,6 +648,9 @@ footer {
 
 /*larger than 1440px;*/
 @media only screen and (min-width:1440px){
+  .col-md-4 {
+    font-size: 1.2em;
+  }
 }
 
 /*sumo sized (mac) screens*/
