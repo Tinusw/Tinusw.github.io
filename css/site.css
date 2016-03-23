@@ -574,8 +574,71 @@ footer {
 
 /*larger than 960px;*/
 @media only screen and (min-width:960px){
+  .introDiv {
+    margin-top: 5%;
+    font-size: 0.8em;
+  }
+
+  #workBoxes {
+    margin-top: -1.6%;
+    padding-top: 0%;
+  }
+
   .col-md-4 {
-    height: 31.25vh;
+    height: 30.56vh;
+    font-size: 0.8em;
+    padding-top: 0.5%;
+  }
+
+  .col-md-4 {
+    font-weight: 1000;
+  }
+
+  #skill1 img {
+  width: 10%;
+  margin-left: 25px;
+  }
+
+
+  #btstrpLink img {
+    width: 36%;
+    margin-left: 40px;
+  }
+
+  #gitLink img {
+    width: 10.2%;
+    margin-left: 30px;
+  }
+
+
+  #rorLink img {
+    width: 10%;
+    margin-left: 30px;
+  }
+
+  #githubLink img {
+  width: 33%;
+  margin-left: 30px;
+  }
+
+  #pmLink img {
+    width: 11.5%;
+    margin-left: 20px;
+  }
+
+  #nodeLink img {
+    width: 13.5%;
+    margin-left: 35px;
+  }
+
+  #reactLink img {
+    width: 13%;
+    padding-left: 1%;
+  }
+
+  #sndcldLink img {
+    width: 13.7%;
+    margin-left: 10px;
   }
 
   #splitter2 {
@@ -656,7 +719,7 @@ footer {
 
   .col-md-4 {
     height: 31.1vh;
-    font-size: 0.85em;
+    font-size: 0.9em;
   }
 
   #emailButton {
