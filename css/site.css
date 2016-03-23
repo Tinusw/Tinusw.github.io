@@ -70,7 +70,7 @@ body {
 .introDiv {
   width: 600px;
   margin-top: 150px;
-  margin-left: 15px;
+  margin-left: 1.3%;
   padding-left: 0.5%;
   padding-bottom: 0.5%;
   background-color: rgba(0, 0, 0, 0.55);
@@ -107,8 +107,8 @@ body {
 .pageHeader {
   width: 42%;
   border-radius: 11px;
-  margin-left: 15px;
-  padding-left: 0.5%;
+  margin-left: 1.3%;
+  padding-left: 1%;
   background-color: rgba(0, 0, 0, 0.55);
 }
 
@@ -156,7 +156,7 @@ body {
   top: 77%;
   width: 80%;
   padding: 1% 0 0.5% 0.8%;
-  margin-left: 10px;
+  margin-left: 1.5%;
   text-align: left;
   color: rgba(211, 221, 211, 1.0);
   font-weight: 500;
@@ -234,18 +234,43 @@ body {
 }
 
 #skillRowA {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
   visibility: hidden;
 }
 
 #skillRowB {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
   visibility: hidden;
 }
 
 #skillRowC {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
   visibility: hidden;
 }
 
 .col-md-4 {
+  margin-top: 0.2%;
   padding: 1% 1% 1% 1%;
 }
 
@@ -505,7 +530,7 @@ h2 {
 h3 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1.3em;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: white;
@@ -516,7 +541,7 @@ h3 {
 h4 {
   font-family: 'Roboto', 'Noto Sans', Arial, sans-serif;
   font-weight: 100;
-  font-size: 1em;
+  font-size: 1.1em;
   /*makes fonts look crispy*/
   -webkit-font-smoothing: antialiased;
   color: white;
@@ -585,7 +610,7 @@ footer {
   }
 
   .col-md-4 {
-    height: 30.56vh;
+    height: 30.1vh;
     padding-top: 0.5%;
   }
 
