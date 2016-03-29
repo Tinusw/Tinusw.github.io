@@ -501,6 +501,12 @@ body {
   -o-background-size: cover;
 }
 
+.pageBody {
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 1px 1px black;
+}
 /**/
 /*typography*/
 /**/
