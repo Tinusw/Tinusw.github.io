@@ -174,7 +174,8 @@ body {
 }
 
 .carousel-inner > .item > img {
-  max-height: 232px;
+  width:360px;
+  height:220px;
   padding: 0;
   margin: 0;
   border-radius: 11px;
