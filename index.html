@@ -108,10 +108,9 @@
                 <li>The user should be able to create a list definind a title</li>
                 <li>The user should be able to add a task into a list defining a description</li>
                 <li>The user should be able to show a list of lists and their children (tasks)
-The user should be able to complete a task</li>
+                <li>The user should be able to complete a task</li>
                 <li>The user should be able to defined a task as uncompleted</li>
-                <li>The user should be able to filter and showing only uncompleted tasks
-</li>
+                <li>The user should be able to filter and showing only uncompleted tasks</li>
                 <br>
                 <h4> Plugins Used </h4>
                 <li>jQuery</li>
@@ -134,7 +133,7 @@ The user should be able to complete a task</li>
               <h3> Click for more </h3>
             </a>
             <!-- Modal Trigger -->
-            <a href="#" id="workModalTrig">
+            <a href="#" id="work2ModalTrig">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators hidden">
@@ -182,7 +181,7 @@ The user should be able to complete a task</li>
         </div><!-- /col-xs-12 col-sm-4 col-md-4 -->
 
         <!-- Work Modal Small modal -->
-        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="workModal">
+        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work2Modal">
           <div class="modal-dialog modal-md">
             <div class="modal-content">
               <div class="modal-header">
@@ -269,7 +268,7 @@ The user should be able to complete a task</li>
         </div><!-- /col-xs-12 col-sm-4 col-md-4 -->
 
         <!-- Work2 Modal Small modal -->
-        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work2Modal">
+        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work3Modal">
           <div class="modal-dialog modal-md">
             <div class="modal-content">
               <div class="modal-header">
@@ -358,7 +357,7 @@ The user should be able to complete a task</li>
         </div><!-- /col-xs-12 col-sm-4 col-md-4 -->
 
         <!-- Work3 Modal Small modal -->
-        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work3Modal">
+        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work4Modal">
           <div class="modal-dialog modal-sm">
             <div class="modal-content">
               <div class="modal-header">
@@ -387,7 +386,354 @@ The user should be able to complete a task</li>
             </div><!-- Modal-content -->
           </div> <!-- Modal-dialog -->
         </div> <!-- modal -->
-      </div><!-- /Row -->
+      </div><!-- /Row1 -->
+
+      <br>
+
+      <div class="row" id="workRow">
+        <div class="col-xs-12 col-sm-3 col-md-3" id=workBoxes>
+          <div class="workContainer" id="work">
+            <!-- on-hover text popup -->
+            <a href="#" class="clickInfo">
+              <h3> Click for more </h3>
+            </a>
+            <!-- Modal Trigger -->
+            <a href="#" id="workModalTrig">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators hidden">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <!-- item 1 -->
+                  <div class="item active">
+                    <img src="images/RailsTodo/todo1.png" alt="carousel1">
+                  </div>
+
+                  <!-- item 2 -->
+                  <div class="item">
+                    <img src="images/RailsTodo/todo2.png" alt="carousel2">
+                  </div>
+
+                  <!-- item 3 -->
+                  <div class="item">
+                    <img src="images/RailsTodo/todo3.png" alt="carousel3">
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> <!--/carousel -->
+              <h2> Pintrest Clone Rails/jQuery Masonry</h2>
+            </a>
+          </div> <!--/container-->
+        </div><!-- /col-xs-12 col-sm-4 col-md-4 -->
+
+        <!-- Work Modal Small modal -->
+        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="workModal">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Ruby On Rails Webstore</h4>
+              </div>
+
+              <div class="modal-body">
+                <h4 class="modal-desc">Project Details </h4>
+                <h5> As a small test I decided to create a todo list. So here are the use cases:</h5>
+                <li>The user should be able to create a list definind a title</li>
+                <li>The user should be able to add a task into a list defining a description</li>
+                <li>The user should be able to show a list of lists and their children (tasks)
+                <li>The user should be able to complete a task</li>
+                <li>The user should be able to defined a task as uncompleted</li>
+                <li>The user should be able to filter and showing only uncompleted tasks</li>
+                <br>
+                <h4> Plugins Used </h4>
+                <li>jQuery</li>
+                <br>
+                <br>
+                <h2 id="modalLink"> <a href="hhttps://stormy-escarpment-97643.herokuapp.com" target="_blank" id="heroku"> Live on Heroku</a></h2>
+                <h4 id="modalLink">               
+                  <a href="https://github.com/Tinusw/RailsTodo" target="_blank" id=githubLink>
+                    <img src="images/SkillLogo/Github.png" alt="skillGithub">
+                  </a>
+                </h4>
+              </div>
+            </div><!-- Modal-content -->
+          </div> <!-- Modal-dialog -->
+        </div> <!-- modal -->
+        <div class="col-xs-12 col-sm-3 col-md-3" id=workBoxes>
+          <div class="workContainer" id="work">
+            <!-- on-hover text popup -->
+            <a href="#" class="clickInfo">
+              <h3> Click for more </h3>
+            </a>
+            <!-- Modal Trigger -->
+            <a href="#" id="work2ModalTrig">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators hidden">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <!-- item 1 -->
+                  <div class="item active">
+                    <img src="images/WebApp/webAppWelcome.png" alt="carousel1">
+                  </div>
+
+                  <!-- item 2 -->
+                  <div class="item">
+                    <img src="images/WebApp/webAppProducts.png" alt="carousel2">
+                  </div>
+
+                  <!-- item 3 -->
+                  <div class="item">
+                    <img src="images/WebApp/webAppAngular.png" alt="carousel3">
+                  </div>
+
+                  <!-- item 4 -->
+                  <div class="item">
+                    <img src="images/WebApp/webAppFeatured.png" alt="carousel4">
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> <!--/carousel -->
+              <h2> Reddit Clone - Angular & Rails</h2>
+            </a>
+          </div> <!--/container-->
+        </div><!-- /col-xs-12 col-sm-4 col-md-4 -->
+
+        <!-- Work Modal Small modal -->
+        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work2Modal">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Ruby On Rails Webstore</h4>
+              </div>
+
+              <div class="modal-body">
+                <h4 class="modal-desc">Project Details </h4>
+                <h5> This is a fully production ready webstore built on Ruby on Rails. Users are able to sign up, make payments and write reviews for products sold on the website. It also features a sign up mailer, a fully functional AngularJS order page, and a pop-out sidebar made completely out of CSS!</h5>
+                <br>
+                <h4> Gems & Plugins Used </h4>
+                <li>Devise (Authentication)</li>
+                <li>CanCanCan (Authorization)</li>
+                <li>will_paginate (Pagination)</li>
+                <li>Raty jQuery plugin </li>
+                <li>RSpec</li>
+                <li>FactoryGirl (generating test data)</li>
+                <li>Guard (automate tasks)</li>
+                <li>Guard RSpec (automate RSpec tests)</li>
+                <li>Spork Rails (faster testing)</li>
+                <li>Guard-Spork</li>
+                <li>Stripe (Payment Processing)</li>
+                <li>AngularJS-Rails (Orders page)</li>
+                <li>Memcached</li>
+                <li>Redis</li>
+
+                <br>
+                <h4> The site also features an Angular JS page displaying existing order info, while allowing new orders to be added, just to test the functionality of the Angular integration. I also used a variety of jQuery tweaks and plugins to improve the sites usability.</h4>
+                <br>
+                <h2 id="modalLink"> <a href="https://ancient-ocean-10077.herokuapp.com" target="_blank" id="heroku"> Live on Heroku</a></h2>
+                <h4 id="modalLink">               
+                  <a href="https://github.com/Tinusw/RubyEcommerceSite" target="_blank" id=githubLink>
+                    <img src="images/SkillLogo/Github.png" alt="skillGithub">
+                  </a>
+                </h4>
+              </div>
+            </div><!-- Modal-content -->
+          </div> <!-- Modal-dialog -->
+        </div> <!-- modal -->
+
+        <div class="col-xs-12 col-sm-3 col-md-3" id=workBoxes>
+          <div class="workContainer" id="work2">
+            <!-- on-hover text popup -->
+            <a href="#" class="clickInfo">
+              <h3> Click for more </h3>
+            </a>
+            <!-- Modal Trigger -->
+            <a href="#" id="work2ModalTrig">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators hidden">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <!-- item 1 -->
+                  <div class="item active">
+                    <img src="images/AngularTodo/AngularTodoMain.png" alt="carousel1">
+                  </div>
+
+                  <!-- item 2 -->
+                  <div class="item">
+                    <img src="images/AngularTodo/AngularTodoHighlight.png" alt="carousel2">
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> <!--/carousel -->
+              <h2> My cookbook - Rails & Angular</h2>
+            </a>
+          </div> <!--/container-fluid -->
+        </div><!-- /col-xs-12 col-sm-4 col-md-4 -->
+
+        <!-- Work2 Modal Small modal -->
+        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work3Modal">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">A todo list with AngularJS</h4>
+              </div>
+
+              <div class="modal-body">
+                <h4 class="modal-desc">Project Details </h4>
+                <h5> A one-page ToDo list app that allows users to view, add, and delete ToDos from the same page without reloading it or having to go to another page. 
+
+                The application is built on a Rails backend, and allows the AngularJS frontend to Create, Read and Destroy database information via JSON requests.
+
+                Although the application is not the most complex todo list you'll ever see it does explore the fundamentals of Angular</h5>
+
+                <br>
+
+                <h4> Gems Used </h4>
+                <li>angularjs-Rails</li>
+                <li>responders</li>
+                <br>
+                <h4> Angular Directives and services used</h4>
+                <li> ng-show </li>
+                <li> ng-repeat </li>
+                <li> ng-submit </li>
+                <li> ng-click </li>
+                <li> ng-model </li>
+                <li> ng-resource </li>
+                <li> factory</li>
+
+                <br>
+
+                <h2 id="modalLink"> <a href="https://boiling-springs-86181.herokuapp.com/" target="_blank" id="heroku"> Live on Heroku</a></h2>
+                <h4 id="modalLink">               
+                  <a href="https://github.com/Tinusw/AngularTodo" target="_blank" id=githubLink>
+                    <img src="images/SkillLogo/Github.png" alt="skillGithub">
+                  </a>
+                </h4>
+              </div>
+            </div><!-- Modal-content -->
+          </div> <!-- Modal-dialog -->
+        </div> <!-- modal -->
+
+        <div class="col-xs-12 col-sm-3 col-md-3" id=workBoxes>
+          <div class="workContainer" id="work3">
+            <!-- on-hover text popup -->
+            <a href="#" class="clickInfo">
+              <h3> Click for more </h3>
+            </a>
+            <!-- Modal Trigger -->
+            <a href="#" id="work3ModalTrig">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators hidden">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <!-- item 1 -->
+                  <div class="item active">
+                    <img src="images/jQueryCalc/jQueryCalcValue.png" alt="carousel1">
+                  </div>
+
+                  <!-- item 2 -->
+                  <div class="item">
+                    <img src="images/jQueryCalc/jQueryCalcEmpty.png" alt="carousel2">
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control hidden" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> <!--/carousel -->
+              <h2> jQuery Calculator</h2>
+            </a>
+          </div> <!--/container-fluid -->
+        </div><!-- /col-xs-12 col-sm-4 col-md-4 -->
+
+        <!-- Work3 Modal Small modal -->
+        <div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="work4Modal">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">A Pure jQuery Calculator</h4>
+              </div>
+
+              <div class="modal-body">
+                <h4 class="modal-desc">Project Details </h4>
+                <h5> I built this project to get a solid grasp on jQuery, and to explore the options beyond the myriad of pre-made plugins available online. </h5>
+
+                <br>
+                
+                <h4> Features</h4>
+                <li> Splits operator and number inputs into two separate sections </li>
+                <li> written in less than 100 lines of code </li>
+                <br>
+
+                <h2 id="modalLink"> <a href="http://explorer-lizard-74564.bitballoon.com/" target="_blank" id="heroku"> Live on Heroku</a></h2>
+                <h4 id="modalLink">               
+                  <a href="https://github.com/Tinusw/jQueryCalculator" target="_blank" id=githubLink>
+                    <img src="images/SkillLogo/Github.png" alt="skillGithub">
+                  </a>
+                </h4>
+              </div>
+            </div><!-- Modal-content -->
+          </div> <!-- Modal-dialog -->
+        </div> <!-- modal -->
+      </div><!-- /Row1 -->
     </div> <!-- /container -->
 
     <div class="container" id="page3">
