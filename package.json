@@ -1,0 +1,29 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tinusw/Tinusw.github.io.git"
+  },
+  "author": "tinus wagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tinusw/Tinusw.github.io/issues"
+  },
+  "homepage": "https://github.com/Tinusw/Tinusw.github.io#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.2",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8"
+  }
+}
