@@ -1,3 +1,5 @@
 // import $ from "jquery";
+require('./scss/app.scss');
 require('bootstrap-loader');
-// require('./src/scss/app.css');
+require('./typed.js');
+require('./utilities.js');
