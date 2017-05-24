@@ -68,12 +68,35 @@
 
     // Event handling
     function addListeners() {
-        if(!('ontouchstart' in window)) {
-            window.addEventListener('mousemove', mouseMove);
-        }
-        window.addEventListener('scroll', scrollCheck);
-        window.addEventListener('resize', resize);
+      if(!('ontouchstart' in window)) {
+          window.addEventListener('mousemove', mouseMove);
+      }
+      window.addEventListener('scroll', scrollCheck);
+      window.addEventListener('resize', resize);
+      var links = document.getElementsByClassName("img");
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('mouseover', grow);
+        links[i].addEventListener('mouseleave', shrink);
+
+      };
     }
+
+    function grow() {
+      console.log('pew');
+      for(var i in points) {
+          var c = new Circle(points[i], 8+Math.random()*2, '#515151');
+          points[i].circle = c;
+      }
+    }
+
+    function shrink() {
+      console.log('pew');
+      for(var i in points) {
+          var c = new Circle(points[i], 4+Math.random()*2, '#515151');
+          points[i].circle = c;
+      }
+    }
+
 
     function mouseMove(e) {
         var posx = posy = 0;
@@ -108,10 +131,6 @@
         for(var i in points) {
             shiftPoint(points[i]);
         }
-    }
-
-    function spin(){
-      console.log("lol");
     }
 
     function animate() {
