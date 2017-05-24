@@ -1,3 +1,7 @@
+@import 'bootstrap';
+@import 'colors';
+@import 'fonts';
+
 .typed-cursor{
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
@@ -18,8 +22,4 @@
 	0% { opacity:1; }
 	50% { opacity:0; }
 	100% { opacity:1; }
-}
-
-h4 {
-	display: inline;
 }
