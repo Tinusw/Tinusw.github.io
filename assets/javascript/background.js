@@ -10,7 +10,6 @@
     function initHeader() {
         width = window.innerWidth;
         height = window.innerHeight;
-        console.log(width)
         target = {x: width/2, y: height/2};
 
 
@@ -62,7 +61,7 @@
 
         // assign a circle to each point
         for(var i in points) {
-            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+            var c = new Circle(points[i], 4+Math.random()*2, '#515151');
             points[i].circle = c;
         }
     }
@@ -109,6 +108,10 @@
         for(var i in points) {
             shiftPoint(points[i]);
         }
+    }
+
+    function spin(){
+      console.log("lol");
     }
 
     function animate() {
