@@ -5,17 +5,39 @@
     <link rel="stylesheet" href="assets/css/app.css"
   </head>
   <body>
-    <script type="text/javascript" src="assets/javascript/bundle.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="assets/javascript/bundle_min.js" charset="utf-8"></script>
     <script type="text/javascript" src="assets/javascript/jquery.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="assets/javascript/bootstrap.min.js" charset="utf-8"></script>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>Tinus Wagner</h3>
-          <h4>I love working on - </h4>
-          <h4 class="title"></h4>
+      <canvas id="canvas"></canvas>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1>Tinus Wagner</h1>
+            <div class="row header">
+              <h4>I build modern web applications</h4>
+              <h3 class="title"></h3>
+            </div>
+            <div class="row images">
+              <div class="col-lg-4 text-right">
+                <a href="https://github.com/Tinusw" target="_blank" onmouseover="spin()">
+                  <img src="assets/images/github.png" class="github">
+                </a>
+              </div>
+              <div class="col-lg-4 text-center">
+                <a href="https://linkedin.com/in/tinus-wagner" target="_blank">
+                  <img src="assets/images/linkedin.png" class="linkedin">
+                </a>
+              </div>
+              <div class="col-lg-4 text-left">
+                <a href="https://medium.com/@ThatGuyTinus" target="_blank">
+                  <img src="assets/images/medium.png" class="medium">
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  <script type="text/javascript" src="assets/javascript/background.js" charset="utf-8"></script>
   </body>
 </html>
