@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900');
+
+// TODO make a mixin for these
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+@mixin font-size-height($size, $height) {
+  font-size: $size;
+  line-height: $height;
+}
+
+@mixin letter-spacing($spacing) {
+  letter-spacing: $spacing;
+}
+
+// General font definitions
+
+%font-sh-extra-large {
+  @include font-size-height(36px, 42px);
+}
+
+%font-sh-large {
+  @include font-size-height(24px, 29px);
+}
+
+%font-sh-medium {
+  @include font-size-height(18px, 21px);
+}
+
+%font-sh-small {
+  @include font-size-height(14px, 16px);
+}
+
+%font-sh-extra-small {
+  @include font-size-height(12px, 14px);
+}
+
+%font-sh-extra-small-wide {
+  // Not ideal, edge case
+  @include font-size-height(12px, 16px);
+}
+
+%font-sh-extra-extra-small {
+  @include font-size-height(10px, 11px);
+}
+
+%font-sh-tiny {
+  @include font-size-height(9px, 10px);
+}
+
+%font-w-heavy {
+  font-weight: 750;
+}
+
+%font-w-bold {
+  font-weight: 700;
+}
+
+%font-w-semi {
+  font-weight: 600;
+}
+
+%font-w-medium {
+  font-weight: 500;
+}
+
+%font-w-normal {
+  font-weight: 400;
+}
+
+%font-t-uppercase {
+  text-transform: uppercase;
+}
+
+%font-t-lowercase {
+  text-transform: lowercase;
+}
+
+%font-t-capitalize {
+  text-transform: capitalize;
+}
+
+body {
+  background-color: $xxl-grey-background;
+  font-family: 'Raleway', sans-serif;
+
+  h1 {
+    @extend %font-sh-extra-large;
+    @extend %font-w-heavy;
+    @extend %font-t-uppercase;
+    color: $black;
+  }
+
+  h2 {
+    @extend %font-sh-large;
+    @extend %font-w-heavy;
+    @extend %font-t-uppercase;
+    @include letter-spacing(3px);
+    color: $xxd-grey-text;
+  }
+
+  h3 {
+    @extend %font-sh-small;
+    @extend %font-w-normal;
+    @extend %font-t-uppercase;
+    @include letter-spacing(2px);
+    color: $xxd-grey-text;
+  }
+
+  h4 {
+    @extend %font-sh-small;
+    @extend %font-w-semi;
+    @extend %font-t-uppercase;
+    @include letter-spacing(1px);
+    color: $xxd-grey-text;
+  }
+
+  h5 {
+    @extend %font-sh-extra-small;
+    @extend %font-w-semi;
+    color: $xxd-grey-text;
+  }
+
+  p {
+    @extend %font-sh-medium;
+    @extend %font-w-normal;
+    @include letter-spacing(1px);
+    color: $xxd-grey-text;
+  }
+
+  a {
+    @include letter-spacing(1px);
+  }
+
+  li {
+    @include letter-spacing(2px);
+  }
+}

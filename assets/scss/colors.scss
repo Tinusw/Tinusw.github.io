@@ -1,0 +1,76 @@
+// Change your theme colour here
+// (if you change one of these colours, it will automatically change the ones bellow accordingly)
+// Please DO NOT use these directly on element styles.
+
+$extra-dark-blue: #1B2C38;
+$dark-blue: #22323F;
+$medium-blue: #61727B;
+$light-blue: #67A4Af;
+$extra-light-blue: #FAFBFC;
+
+$extra-extra-dark-grey: #252627;
+$extra-dark-grey: #515151;
+$dark-grey: #95a5a6;
+$medium-grey: #9B9B9B;
+$light-grey: #dddddd;
+$extra-light-grey: #FAFAFA;
+$extra-extra-light-grey: #fbfbfb;
+
+// USE THESE directly on element styles
+
+//Backgrounds
+
+$xd-blue-background: $extra-dark-blue;
+$d-blue-background: $dark-blue;
+$m-blue-background: $medium-blue;
+
+$xxd-grey-background: $extra-extra-dark-grey;
+$xd-grey-background: $extra-dark-grey;
+$d-grey-background: $dark-grey;
+$m-grey-background: $medium-grey;
+$l-grey-background: $light-grey;
+$xl-grey-background: $extra-light-grey;
+$xxl-grey-background: $extra-extra-light-grey;
+
+//Borders
+
+$xd-blue-border: $extra-dark-blue;
+$d-blue-border: $dark-blue;
+$m-blue-border: $medium-blue;
+$l-blue-border: $light-blue;
+$xl-blue-border: $extra-light-blue;
+
+$xxd-grey-border: $extra-extra-dark-grey;
+$xd-grey-border: $extra-dark-grey;
+$d-grey-border: $dark-grey;
+$m-grey-border: $medium-grey;
+$l-grey-border: $light-grey;
+$xl-grey-border: $extra-light-grey;
+
+//Text
+
+$xd-blue-text: $extra-dark-blue;
+$d-blue-text: $dark-blue;
+$m-blue-text: $medium-blue;
+$l-blue-text: $light-blue;
+$xl-blue-text: $extra-light-blue;
+
+$xxd-grey-text: $extra-extra-dark-grey;
+$xd-grey-text: $extra-dark-grey;
+$d-grey-text: $dark-grey;
+$m-grey-text: $medium-grey;
+$l-grey-text: $light-grey;
+$xl-grey-text: $extra-light-grey;
+$xxl-grey-text: $extra-extra-light-grey;
+
+// Helper colours, use freely
+
+$white: #fff;
+$black: #000;
+
+$dark-red: #ba1539;
+$red: #d82341;
+$green: #27ae60;
+$yellow: #f7b650;
+$blue: #337ab7;
+$cyan: #00A7AD;
