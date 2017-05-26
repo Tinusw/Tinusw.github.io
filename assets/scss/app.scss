@@ -60,17 +60,21 @@
   @extend .button-general-attrs;
   background-color: $bg-color;
   @include button-border($bg-color);
-  color: $white;
+	h4{
+		color: $fg-color;
+	}
 
   &:hover{
     @include button-border($bg-color);
     background-color: $fg-color;
-    color: $bg-color
+		h4{
+			color: $bg-color;
+		}
   }
 }
 
 .btn-black-white{
-  @include colored-bg-button-attributes($white,transparent);
+  @include colored-bg-button-attributes($black,$white);
 }
 
 // Our styles start here

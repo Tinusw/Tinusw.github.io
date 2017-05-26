@@ -82,7 +82,6 @@
     }
 
     function grow() {
-      console.log('pew');
       for(var i in points) {
           var c = new Circle(points[i], 8+Math.random()*2, '#515151');
           points[i].circle = c;
@@ -90,7 +89,6 @@
     }
 
     function shrink() {
-      console.log('pew');
       for(var i in points) {
           var c = new Circle(points[i], 4+Math.random()*2, '#515151');
           points[i].circle = c;
