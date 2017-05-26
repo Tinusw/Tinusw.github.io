@@ -5866,7 +5866,7 @@ body h4, body h5 {
 body h3, body p {
   font-weight: 400; }
 
-body h1, body h2, body h3, body h4 {
+body h1, body h2, body h3, body h4, .button-general-attrs, .btn-black-white {
   text-transform: uppercase; }
 
 body {
@@ -5920,13 +5920,31 @@ body {
     opacity: 0; }
   100% {
     opacity: 1; } }
-.filter, body .images .github, body .images .linkedin, body .images .medium {
+.filter, body .images .github, body .images .linkedin, body .images .medium, body .images .stackoverflow {
   -webkit-filter: drop-shadow(0px 0px 0px #FAFBFC);
   -webkit-transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
   transition: all 0.5s linear; }
-  .filter:hover, body .images .github:hover, body .images .linkedin:hover, body .images .medium:hover {
+  .filter:hover, body .images .github:hover, body .images .linkedin:hover, body .images .medium:hover, body .images .stackoverflow:hover {
     -webkit-filter: drop-shadow(0px 0px 8px #22323F); }
+
+.button-general-attrs, .btn-black-white {
+  border-radius: 0px; }
+  .button-general-attrs:hover, .btn-black-white:hover {
+    text-decoration: none; }
+  .button-general-attrs .button-icon, .btn-black-white .button-icon {
+    max-height: 18px;
+    padding-right: 15px;
+    float: left; }
+
+.btn-black-white {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #fff; }
+  .btn-black-white:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff; }
 
 body {
   background-color: #FAFAFA; }
@@ -5949,9 +5967,14 @@ body {
     margin-top: 80px;
     min-height: 50%; }
     body .images .github {
-      height: 65px; }
+      height: 5em; }
     body .images .linkedin {
       margin-top: 10px;
-      height: 45px; }
+      height: 3.8em; }
     body .images .medium {
-      height: 70px; }
+      height: 6.5em;
+      margin-top: -5px;
+      margin-left: -15px; }
+    body .images .stackoverflow {
+      height: 5.7em;
+      margin-left: -15px; }

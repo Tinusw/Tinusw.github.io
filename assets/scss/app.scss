@@ -36,6 +36,42 @@
 	}
 }
 
+// Our button styles
+.button-general-attrs{
+  @extend %font-t-uppercase;
+	border-radius: 0px;
+
+  &:hover{
+    text-decoration: none;
+  }
+
+  .button-icon{
+    max-height:18px;
+    padding-right: 15px;
+    float: left;
+  }
+}
+
+@mixin button-border($border-color){
+  border: 2px solid $border-color;
+}
+
+@mixin colored-bg-button-attributes($bg-color,$fg-color) {
+  @extend .button-general-attrs;
+  background-color: $bg-color;
+  @include button-border($bg-color);
+  color: $white;
+
+  &:hover{
+    @include button-border($bg-color);
+    background-color: $fg-color;
+    color: $bg-color
+  }
+}
+
+.btn-black-white{
+  @include colored-bg-button-attributes($white,transparent);
+}
 
 // Our styles start here
 
@@ -64,17 +100,24 @@ body {
 		margin-top: 80px;
 		min-height: 50%;
 		.github{
-			height: 65px;
+	    height: 5em;
 			@extend .filter;
 		}
 		.linkedin{
 			margin-top: 10px;
-			height: 45px;
+	    height: 3.8em;
 			@extend .filter;
 		}
 		.medium{
-			height: 70px;
+	    height: 6.5em;
+			margin-top: -5px;
+			margin-left: -15px;
 			@extend .filter;
+		}
+		.stackoverflow{
+			height: 5.7em;
+			margin-left: -15px;
+			@extend  .filter;
 		}
 	}
 }
