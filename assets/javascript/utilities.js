@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
       ga('send', 'event', this.id, 'clicked');
     })
   }
-});
+  cv = document.getElementById('cv');
+  cv.addEventListener('click', function(){
+    ga('send', 'event', this.id, 'CV opened')
+  })
 
-cv = document.getElementById('cv');
-cv.addEventListener('click', function(){
-  ga('send', 'event', this.id, 'CV opened')
-})
+});

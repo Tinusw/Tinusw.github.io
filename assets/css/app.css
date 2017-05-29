@@ -5967,7 +5967,7 @@ body {
       display: inline; }
   body .images {
     margin-top: 80px;
-    min-height: 50%; }
+    min-height: 30%; }
     body .images .github {
       height: 5em; }
     body .images .linkedin {
