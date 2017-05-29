@@ -5980,19 +5980,3 @@ body {
     body .images .stackoverflow {
       height: 5.7em;
       margin-left: -15px; }
-
-@media (min-width: 320px) {
-  body .images {
-    margin-top: 0; }
-    body .images .github {
-      height: 4em;
-      margin-bottom: 10px; }
-    body .images .linkedin {
-      height: 2.8em;
-      margin-bottom: 10px; }
-    body .images .medium {
-      height: 5em;
-      margin-top: 10px; }
-    body .images .stackoverflow {
-      height: 4.7em;
-      margin-bottom: 10px; } }
