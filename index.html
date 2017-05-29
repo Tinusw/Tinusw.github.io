@@ -5,6 +5,15 @@
     <link rel="stylesheet" href="assets/css/app.css"
   </head>
   <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-99997873-1', 'auto');
+      ga('send', 'pageview');
+    </script>
     <script type="text/javascript" src="assets/javascript/bundle_min.js" charset="utf-8"></script>
     <script type="text/javascript" src="assets/javascript/jquery.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="assets/javascript/bootstrap.min.js" charset="utf-8"></script>
@@ -19,29 +28,31 @@
             </div>
             <div class="row images">
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
-                <a href="https://github.com/Tinusw" target="_blank" class="img">
+                <a href="https://github.com/Tinusw" target="_blank" class="img" id="git">
                   <img src="assets/images/github.png" class="github">
                 </a>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
-                <a href="https://linkedin.com/in/tinus-wagner" target="_blank" class="img">
+                <a href="https://linkedin.com/in/tinus-wagner" target="_blank" class="img" id="linkedin">
                   <img src="assets/images/linkedin.png" class="linkedin">
                 </a>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
-                <a href="https://medium.com/@ThatGuyTinus" target="_blank" class="img">
+                <a href="https://medium.com/@ThatGuyTinus" target="_blank" class="img" id="medium">
                   <img src="assets/images/medium.png" class="medium">
                 </a>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 text-center">
-                <a href="https://stackoverflow.com/users/5780189/tinus-wagner" target="_blank" class="img">
+                <a href="https://stackoverflow.com/users/5780189/tinus-wagner" target="_blank" class="img" id="stackoverflow">
                   <img src="assets/images/stackoverflow.png" class="stackoverflow">
                 </a>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <button class="btn btn-md btn-black-white">
-                <h4>Resume</h4>
+              <a href="/assets/TinusWagnerCV2017.pdf" id="cv" target="_blank">
+                <button class="btn btn-md btn-black-white">
+                  <h4>Resume</h4>
+              </a>
               </div>
             </div>
           </div>

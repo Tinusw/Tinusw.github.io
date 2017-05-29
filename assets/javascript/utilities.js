@@ -6,3 +6,18 @@ window.addEventListener("load", function(){
       loop: true
     });
 });
+
+// Google Analytics
+document.addEventListener("DOMContentLoaded", function(event) {
+  x = document.getElementsByClassName('img');
+  for(var i = 0; i < x.length; i++){
+    x[i].addEventListener('click', function(){
+      ga('send', 'event', this.id, 'clicked');
+    })
+  }
+});
+
+cv = document.getElementById('cv');
+cv.addEventListener('click', function(){
+  ga('send', 'event', this.id, 'CV opened')
+})
