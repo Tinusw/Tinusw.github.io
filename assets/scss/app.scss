@@ -125,3 +125,27 @@ body {
 		}
 	}
 }
+
+@media (min-width:320px){
+	body {
+		.images{
+			margin-top: 0;
+			.github{
+		    height: 4em;
+				margin-bottom: 10px;
+			}
+			.linkedin{
+		    height: 2.8em;
+				margin-bottom: 10px;
+			}
+			.medium{
+		    height: 5em;
+				margin-top: 10px
+			}
+			.stackoverflow{
+				height: 4.7em;
+				margin-bottom: 10px
+			}
+		}
+	}
+}
