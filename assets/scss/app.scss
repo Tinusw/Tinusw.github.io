@@ -119,8 +119,9 @@ body {
 			@extend .filter;
 		}
 		.stackoverflow{
-			height: 5.7em;
-			margin-left: -15px;
+			height: 4.7em;
+	    margin-left: -15px;
+	    margin-top: 8px;
 			@extend  .filter;
 		}
 	}
